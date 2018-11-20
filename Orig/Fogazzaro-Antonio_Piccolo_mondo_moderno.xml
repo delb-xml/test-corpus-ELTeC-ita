@@ -887,9 +887,12 @@ fratello, ch'è assente, qualche informazione circa l'abilità e l'onestà di
 quest'uomo. </p>
                            <p> Gradisca le mie scuse per l'incomodo che Le reco.</p>
                            <signed rend="italic">Jeanne Dessalle</signed>
-                           <ps>
+                        <!--   <ps>
                               <p>P.S. Sono in casa il lunedì e il venerdì dalle cinque alle sette.</p>
-                           </ps>
+                           </ps>-->
+                        <trailer type="ps">
+                       P.S. Sono in casa il lunedì e il venerdì dalle cinque alle sette.
+                        </trailer>
                         </div>
                      </body>
                   </floatingText> 
