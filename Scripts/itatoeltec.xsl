@@ -7,9 +7,13 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     version="2.0">
   
+  <!-- elements to lose -->
+    
+  <xsl:template match="t:space"/>
+    
 <!-- tags to lose -->
     <xsl:template
-        match="t:abbr|t:docDate|t:docTitle|t:docImprint|t:lg|t:num|t:opener|t:q|t:said|t:sic|t:sp|t:space">
+        match="t:abbr|t:docDate|t:docTitle|t:docImprint|t:lg|t:num|t:opener|t:q|t:said|t:sic|t:sp">
         <xsl:apply-templates/>
     </xsl:template>
     
@@ -30,19 +34,23 @@
     <xsl:template match="t:speaker">
         <p><label><xsl:apply-templates/></label></p>
     </xsl:template>
-   <!-- divs -->
    
-    <xsl:template match="t:div1|t:div2|t:div3">
+    <!-- divs -->
+   
+   <xsl:template match="t:div[@type='sez_diario']">
+       <milestone unit="diary_entry"/>
+       <xsl:apply-templates/>
+   </xsl:template>
+   
+    <xsl:template match="t:div1|t:div2|t:div3|t:div[not(@type='sez_diario')]">
         <div>
-            <xsl:attribute name="type">
+             <xsl:attribute name="type">
                 <xsl:choose>
                     <xsl:when test="@type='capitolo'">chapter</xsl:when>
                     <xsl:when test="@type='cap'">chapter</xsl:when>                   
                     <xsl:when test="@type='part'">part</xsl:when>
                     <xsl:when test="@type='ded'">liminal</xsl:when>
-                    <xsl:otherwise/>
-                        
-                    
+                    <xsl:otherwise>unknown</xsl:otherwise>                       
                 </xsl:choose>
             </xsl:attribute>
             <xsl:apply-templates/>
@@ -60,6 +68,37 @@
             <xsl:apply-templates select="t:body"/>
         </quote>
     </xsl:template>
+    
+    <xsl:template match="t:TEI">
+        <TEI><xsl:attribute name="xml:id">
+            <xsl:value-of select="concat('BI',substring-after(//t:publicationStmt/t:idno[1],'bibit'))"/>
+        </xsl:attribute>
+        <xsl:attribute name="xml:lang">it</xsl:attribute>
+            <xsl:apply-templates/>
+</TEI>    </xsl:template>
+    
+    <!-- tweak header -->
+    
+    <xsl:template match="t:titleStmt">
+        <titleStmt>
+            <title><xsl:value-of select="t:title"/><xsl:text>: edizion ELTeC</xsl:text></title>
+        <author><xsl:value-of select="normalize-space(t:author)"/><xsl:text> (? - ?)</xsl:text></author>
+    <respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt>
+        <xsl:apply-templates select="t:respStmt"/></titleStmt>
+    </xsl:template>
+    
+    <xsl:template match="t:extent">
+        <extent>
+            <measure type="words"/>
+            <xsl:if test="count(//t:pb) &gt; 1">
+            <measure type="pages"><xsl:value-of select="count(//t:pb)"/></measure></xsl:if>            
+        </extent>
+    </xsl:template>
+    
+    <xsl:template match="t:publicationStmt">
+        <publicationStmt><p>Published as part of ELTeC : <date></date></p></publicationStmt>
+    </xsl:template>
+    
     
     <!-- copy everything else -->
     
