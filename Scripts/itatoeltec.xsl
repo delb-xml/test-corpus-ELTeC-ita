@@ -3,23 +3,26 @@
     xmlns:h="http://www.w3.org/1999/xhtml" xmlns:t="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0" version="2.0">
     <!-- elements and attributes to lose -->
-    <xsl:template match="t:space|t:seriesStmt"/>
-    <xsl:template match="@anchored | @rend" />
+    <xsl:template match="t:space|t:seriesStmt|t:editionStmt"/>
+    <xsl:template match="@anchored | @rend | t:title/@type" />
     <!-- tags to lose -->
     <xsl:template
         match="t:abbr | t:docDate | t:docTitle | t:docImprint | t:lg | t:num | t:opener | t:q | t:said | t:sic | t:sp">
         <xsl:apply-templates/>
     </xsl:template>
-    <!-- change to p -->
+   
     <xsl:template match="t:epigraph">
        <div type="liminal"> <p>
             <xsl:apply-templates/>
         </p></div>
     </xsl:template>
-    <xsl:template match="t:signed | t:dateline">
+    <xsl:template match="t:signed | t:dateline|t:trailer">
         <xsl:choose>
             <xsl:when test="parent::t:closer">
                 <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:when test="parent::t:opener">
+                <label><xsl:apply-templates/></label>
             </xsl:when>
             <xsl:otherwise>
                 <p>
@@ -28,6 +31,11 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="t:closer">
+        <label><xsl:apply-templates/></label>
+    </xsl:template>
+    
     <xsl:template match="t:speaker">
         <p>
             <label>
@@ -43,17 +51,58 @@
     
     <xsl:template match="t:div[@type = 'paragrafo']">
         <milestone unit="paragrafo"/>
-        <xsl:apply-templates/>
+        <p><label><xsl:value-of select="t:head"/></label></p>
+       <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="t:div[@type = 'paragrafo']/t:head"/>
+    
+    <xsl:template match="t:div[@type='epistola']">
+        <quote type="letter">
+            <xsl:apply-templates/>
+        </quote>
+    </xsl:template>
+    <xsl:template match="t:div[@type='epistola']/t:head">
+        <label>
+            <xsl:apply-templates/>
+        </label>
+    </xsl:template>
+    <xsl:template match="t:div[@type='novella']">
+        <quote type="novella">
+            <xsl:apply-templates/>
+        </quote>
+    </xsl:template>
+    <xsl:template match="t:div[@type='novella']/t:head">
+        <label>
+            <xsl:apply-templates/>
+        </label>
     </xsl:template>
     
-    <xsl:template match="t:div1 | t:div2 | t:div3 | t:div[not(@type = 'sez_diario')]
-        |t:div[not(@type = 'paragrafo')]">
+    <xsl:template match="t:div3[@type='sonetto']">
+        <quote type="sonetto">
+            <xsl:apply-templates/>
+        </quote>
+    </xsl:template>
+    <xsl:template match="t:div3[@type='sonetto']/t:head">
+        <label>
+            <xsl:apply-templates/>
+        </label>
+    </xsl:template>
+    
+    <xsl:template match="t:div[@type = 'capitolo']">
+     <div type="chapter">
+        <xsl:apply-templates/>
+     </div>
+    </xsl:template>
+    
+    <xsl:template match="t:div1 | t:div2 | t:div3 ">
         <div>
             <xsl:attribute name="type">
                 <xsl:choose>
                     <xsl:when test="@type = 'capitolo'">chapter</xsl:when>
                     <xsl:when test="@type = 'cap'">chapter</xsl:when>
-                    <xsl:when test="@type = 'libro'">chapter</xsl:when>                   
+                    <xsl:when test="@type = 'libro'">chapter</xsl:when>   
+                    <xsl:when test="@type = 'parte'">chapter</xsl:when>
+                    
                     <xsl:when test="@type = 'part'">part</xsl:when>
                     <xsl:when test="@type = 'ded'">liminal</xsl:when>
                     <xsl:when test="@type = 'prefazione'">liminal</xsl:when>
@@ -73,11 +122,12 @@
             <xsl:value-of select="."/>
         </head>
     </xsl:template>
-    <xsl:template match="t:floatingText">
+    <xsl:template match="t:quote[t:floatingText/t:body/t:div]">
         <quote>
-            <xsl:apply-templates select="t:body"/>
+            <xsl:apply-templates select="t:floatingText/t:body/t:div/*"/>
         </quote>
     </xsl:template>
+    
     <xsl:template match="t:TEI">
         <TEI>
             <xsl:attribute name="xml:id">
@@ -151,9 +201,14 @@
                 <e:authorGender key="M"/>
                 <e:size key="medium"/>
                 <e:canonicity key="high"/>
-                <e:timeSlot key="T?"/>
+                <e:timeSlot key="T1"/>
             </textDesc>
         </profileDesc>
+        <xsl:if test="not(following::t:revisionDesc)">
+            <revisionDesc>
+                <change when="2018-11-24">LB: convert to eltec </change>
+            </revisionDesc>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="t:change"/>
     <xsl:template match="t:revisionDesc">
