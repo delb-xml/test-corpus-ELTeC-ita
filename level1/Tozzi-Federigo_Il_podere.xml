@@ -36,17 +36,17 @@
    </teiHeader>
    <text>
       <front>
-         <titlePage>
+         <div type="titlePage">
             
-               <titlePart type="princ">IL PODERE</titlePart>
+               <p>IL PODERE</p>
             
             
-               <publisher>Arnoldo Mondadori Editore</publisher>
-               <pubPlace>Vicenza</pubPlace>
-               1987
-            
-         </titlePage>
-         <div type="epigragfe">
+               <p>Arnoldo Mondadori Editore</p>
+               <p>Vicenza</p>
+               <p>1987</p>
+         </div>
+      
+         <div type="liminal">
             <p>a G.A. Borgese</p>
          </div>
       </front>

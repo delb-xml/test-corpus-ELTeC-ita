@@ -35,10 +35,11 @@
             Codifica XML - Codifica manuale</change></revisionDesc>
    </teiHeader>
    <text>
+     <front> <div type="liminal">
+         <p>A MIA MADRE</p>
+      </div></front>
       <body>
-         <div type="liminal"><p>
-            <p>A MIA MADRE</p>
-         </p></div>
+        
          <div type="libro">
             <head>LIBRO PRIMO</head>
             <p>Scendevano il fiume. Le rive, or accostate, or ritraendosi in seni ameni, or lasciando all'acque quiete ampio letto, mostravano qui l'ombre rade e là conserte, qui l'erboso declivio, là 'l poggio sassoso, segnato di sentieretti che s'inerpicano lenti per l'erta. L'erbe che facevano sdrucciolevoli gli scogli dappiede, col verde vivo avvivavano il luccicare de' fiori sopra tremolanti: e sotto il ciel placido e fosco parevano gli alberi spandere il flusso marino; e scossa ad ora ad ora da un buffo di vento gocciolava la pioggia: sotto la pioggia vogavano taciti affannosamente pescatori, uomini e donne, a cercare nell'alto il vitto alla povera famigliuola. Gli era di giugno, ma rigido il tempo e mesto: se non che una modesta pace, una letizia raccolta spirava nell'aria, simile alla malinconia di timida giovanezza. Il canto lontano del gallo chiamava a destarsi la natura dormente: e molti uccelli con le vispe lor voci facevano alla primavera restìa dolce invito. Maria guardava alle nubi, all'acque dell'Odet, a Giovanni: egli sotto le nebbie di Bretagna pensava all'Italia.</p>
