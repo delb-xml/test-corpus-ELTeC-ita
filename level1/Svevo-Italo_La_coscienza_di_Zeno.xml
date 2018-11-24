@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt><title>La coscienza di Zeno: edizion ELTeC</title><author>Italo Svevo (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
-         <extent><measure unit="words"/></extent>
+         <extent><measure unit="words">141904</measure></extent>
          <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
          
          <sourceDesc>

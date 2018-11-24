@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt><title>Il mio Carso: edizion ELTeC</title><author>Scipio Slataper (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
-         <extent><measure unit="words"/></extent>
+         <extent><measure unit="words">27440</measure></extent>
          <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
          
          <sourceDesc>

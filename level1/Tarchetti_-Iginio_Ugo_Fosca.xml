@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt><title>Fosca: edizion ELTeC</title><author>Ugo Iginio Tarchetti (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
-         <extent><measure unit="words"/></extent>
+         <extent><measure unit="words">57784</measure></extent>
          <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
          
          <sourceDesc>

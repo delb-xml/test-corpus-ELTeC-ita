@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt><title>Fede e bellezza: edizion ELTeC</title><author>Niccolò Tommaseo (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
-         <extent><measure unit="words"/></extent>
+         <extent><measure unit="words">46720</measure></extent>
          <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
          
          <sourceDesc>

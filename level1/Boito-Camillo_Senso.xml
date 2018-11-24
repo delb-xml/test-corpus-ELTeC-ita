@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt><title>Senso: edizion ELTeC</title><author>Camillo Boito (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
-         <extent><measure unit="words"/></extent>
+         <extent><measure unit="words">11483</measure></extent>
          <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
          
          <sourceDesc>
