@@ -1,105 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BI000184" xml:lang="it">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
-            <title>Piccolo mondo moderno</title>
-            <author>Antonio Fogazzaro</author>
-         </titleStmt>
-         <extent>601 Kb in UTF-8</extent>
-         <publicationStmt>
-            <publisher>Biblioteca Italiana</publisher>
-            <pubPlace>Roma</pubPlace>
-            <date>2003</date>
-            <idno>bibit000184</idno>
-            <availability status="unknown">
-               <p>Questa risorsa digitale è liberamente accessibile per uso
-              personale o scientifico. Ogni uso commerciale è vietato</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <title>Collezione BibIt</title>
-         </seriesStmt>
+         <titleStmt><title>Piccolo mondo moderno: edizion ELTeC</title><author>Antonio Fogazzaro (? - ?)</author><respStmt><resp>ELTeC encoding</resp><name>Lou Burnard</name></respStmt></titleStmt>
+         <extent><measure unit="words">90004</measure></extent>
+         <publicationStmt><p>Published as part of ELTeC : <date/></p></publicationStmt>
+         
          <sourceDesc>
             <bibl>
                <title>Piccolo mondo moderno</title>
                <author>Fogazzaro, Antonio</author>
-               <editor xml:id="ed" role="editor">Santoro, Mario</editor>
+               <respStmt><resp>editor</resp><name>Santoro, Mario</name></respStmt>
                <publisher>Garzanti</publisher>
                <pubPlace>Milano</pubPlace>
                <date>1990</date>
             </bibl>
-         </sourceDesc>
+         <bibl type="copyText"><date>800</date></bibl></sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <samplingDecl>
-            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
-                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
-                      digitale</p>
-         </samplingDecl>
-         <editorialDecl>
-            <correction method="silent" status="medium">
-               <p>Livello medio: controllo a video con collazione con edizione di
-                      riferimento</p>
-            </correction>
-            <quotation marks="all">
-               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
-                        sono stati rappresentati sulla versione digitale</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
-                        ricomposte</p>
-            </hyphenation>
-         </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="CGB">
-               <bibl>Classificazione generi BibIt</bibl>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <creation>
-            <date>800</date>
-         </creation>
-         <langUsage>
+      <encodingDesc n="eltec-1"><p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione generi BibIt--></p></encodingDesc>
+      <profileDesc xmlns:e="http://distantreading.net/eltec/ns"><langUsage>
             <language ident="ita">Italiano</language>
-         </langUsage>
-         <textClass default="false">
-            <keywords scheme="#CGB">
-               <term>Narrativa</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change>
-            <date>Data sconosciuta anteriore al 2000</date>
-            <name>LIZ</name>Digitalizzazione - OCR</change>
-         <change>
-            <date>Data sconosciuta anteriore al 2000</date>
-            <name>LIZ</name>Correzione linguistica</change>
-         <change>
-            <date>2003-03-25T00:00:00.000+02:00</date>
-            <name>Maria Catacchio</name>
-            <name>BIBIT</name>Codifica XML - Codifica manuale</change>
-         <change>
-            <date>2003-04-07T00:00:00.000+02:00</date>
-            <name>Elena Pierazzo</name>
-            <name>BIBIT</name>Validazione</change>
-      </revisionDesc>
+         </langUsage><textDesc><e:authorGender key="M"/><e:size key="medium"/><e:canonicity key="high"/><e:timeSlot key="T1"/></textDesc></profileDesc>
+      <revisionDesc><change when="2018-11-24">LB: convert to eltec </change><change when="1999-01-01">LIZ: 
+            
+            Digitalizzazione - OCR</change><change when="1999-01-01">LIZ: 
+            
+            Correzione linguistica</change><change when="2003-04-07">Elena Pierazzo BIBIT: 
+            
+            
+            Validazione</change><change when="2003-03-25">Maria Catacchio BIBIT: 
+            
+            
+            Codifica XML - Codifica manuale</change></revisionDesc>
    </teiHeader>
    <text>
-   <front><epigraph>
-   <p>
+   <front><div type="liminal"><p>
+  
    <emph>Alla dolorosa</emph>
-   </p>
-   </epigraph></front>
+   
+   </p></div></front>
       <body>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO PRIMO</head>
             <head>AB OVO</head>
             
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p>La vecchia marchesa Nene Scremin stava spolverando ella stessa, in abito di
 ricevimento e con un viso arcigno, il suo salotto. Strofinava col fazzoletto le
 spalliere delle sedie appoggiate alle pareti, gl'intagli del canapè e delle
@@ -314,9 +259,9 @@ saliti in carrozza, avessero udito il capitano Reggini di Nizza cavalleria,
 famoso cinico, affrontar sotto gli ippocastani il Prefetto, suo compaesano, a
 questo modo: "O che ci faceva Lei, commendatore mio, fra quella vecchia scatola
 e quel coperchio? Per causa Sua non combaciavano!". </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> La marchesa Nene non si trovò col marito sola e sicura dalle curiosità
 domestiche se non assai tardi nel dopopranzo, poco prima dell'ora di
 conversazione. "L'ovo!" diss'egli umile, quando sua moglie lo interrogò con un
@@ -567,9 +512,9 @@ un'influenza. Pochi, ma ce n'è! Quello lì no; eh, quello lì! E talento. Talen
 grande. — Qui don Serafino si fermò sui due piedi, cavò la tabacchiera e,
 ficcate le dita nel tabacco, soggiunse con importanza: "Adesso lo femo sindaco,
 capìo". </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Intanto il signore astratto si avviava con un'andatura stanca verso il
 palazzo Scremin. Trovò il portone chiuso, spento il gas nell'atrio, spento il
 gas sulle scale. Entrò nel suo appartamento, al primo piano, in faccia a quello
@@ -647,7 +592,7 @@ amaro di vergogna. </p>
                <p> Non era una lettera, era un cartoncino e aveva due sole parole di pugno
 della marchesa Nene:</p>
                <p>
-                  <date rend="italic">17 marzo</date>.</p>
+                  <date>17 marzo</date>.</p>
                <p> Piero Maironi ed Elisa Scremin, la donatrice del portafoglio, si erano
 fidanzati il 17 marzo 1882 e ogni anno la marchesa Nene, con un delicatissimo,
 poetico pensiero, aveva silenziosamente ricordato così a suo genero il giorno
@@ -851,22 +796,11 @@ senza velature diplomatiche, senz'alcuno di quegli accomodamenti studiati
 ch'erano familiari a Zaneto quando intendeva produrre impressione in altrui con
 una parte diversa di sè, con la parte superiore e più degna. Poi si vestì e
 scrisse la seguente lettera a monsignor De Antoni: </p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener> Monsignore,</opener>
-                           <p>Voglia, La prego, informare monsignor Vescovo che se i miei colleghi
+               <quote> Monsignore,<p>Voglia, La prego, informare monsignor Vescovo che se i miei colleghi
 penseranno proprio di chiamarmi a quell'ufficio malgrado le mie scarse
 attitudini e la mia totale inesperienza della cosa pubblica, lo accetterò. Gli
 dica pure che confido molto nelle sue preghiere. Mi raccomandi a Dio,
-monsignore, anche Lei. </p>
-                           <closer>Suo devotissimo</closer>
-                           <signed rend="italic">P. Maironi</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+monsignore, anche Lei. </p><label>Suo devotissimo</label><p>P. Maironi</p></quote>
                <p> Rilesse e si disse: "Fino a qual punto sono sincero? Fino a qual punto sono
 ipocrita?". </p>
                <p> Entrò Federico recando una lettera. "Qualcuno" pensò Piero, "che suonerà il
@@ -875,29 +809,14 @@ pergamena, leggermente profumata di violetta, con questo semplice indirizzo:
 — <emph>Signor Maironi</emph> — a caratteri grandi e sicuri. Chi
 l'aveva portata? Un cameriere dei forestieri di villa Diedo. </p>
                <p> Piero aperse e lesse:</p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener> 
+               <quote> 
                               <emph>Signore,</emph> 
-                           </opener>
                            <p>Un tale Pomato ci si è offerto per giardiniere asserendo di essere stato
 lungamente al Suo servizio. Mi permetto di chiederle, a nome pure di mio
 fratello, ch'è assente, qualche informazione circa l'abilità e l'onestà di
-quest'uomo. </p>
-                           <p> Gradisca le mie scuse per l'incomodo che Le reco.</p>
-                           <signed rend="italic">Jeanne Dessalle</signed>
-                        <!--   <ps>
-                              <p>P.S. Sono in casa il lunedì e il venerdì dalle cinque alle sette.</p>
-                           </ps>-->
-                        <trailer type="ps">
+quest'uomo. </p><p> Gradisca le mie scuse per l'incomodo che Le reco.</p><p>Jeanne Dessalle</p><p>
                        P.S. Sono in casa il lunedì e il venerdì dalle cinque alle sette.
-                        </trailer>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+                        </p></quote>
                <p> Federico domandò se vi fosse risposta. Maironi tacque, assorto nelle due
 righe discrete, significanti del poscritto. Egli aveva viaggiato due mesi prima
 in ferrovia con una giovane signora elegantissima, dai lineamenti molto
@@ -910,30 +829,19 @@ occhi gli si erano riaperti nel cuore. </p>
                <p> "Risposta?" diss'egli, guardando ancora il poscritto. "No, adesso no." Ma
 poi, quando Federico era già uscito, lo richiamò: "Aspetta, sì, c'è risposta".
 E scrisse: </p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener> Signora,</opener>
-                           <p>Il Pomato fu veramente al servizio del marchese Scremin, mio suocero. Lo
+               <quote> Signora,<p>Il Pomato fu veramente al servizio del marchese Scremin, mio suocero. Lo
 credo abile. Ho inteso dire che fa professione d'idee socialiste. Non so che
-gli Scremin abbiano mai sospettato della sua probità. </p>
-                           <p>Con perfetto ossequio.</p>
-                           <signed rend="italic">Devotissimo P. Maironi</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+gli Scremin abbiano mai sospettato della sua probità. </p><p>Con perfetto ossequio.</p><p>Devotissimo P. Maironi</p></quote>
                <p> Consegnò a Federico il biglietto senza rileggerlo e congedò bruscamente il
 povero diavolo sbalordito: "va là! va là", come se temesse di pentirsi ancora.
 </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO SECONDO</head>
             <head>NEL MONASTERO</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> Un servo tagliato all'antica introdusse nella sala del biliardo il signore
 che aveva chiesto di don Giuseppe. "Il suo nome, di grazia?" diss'egli. </p>
                <p> "Maironi." </p>
@@ -2179,9 +2087,9 @@ crede nella resurrezione di suo figlio. Qui arrischio, caro Maironi, di
 pigliarmi una febbriciattola di fede anch'io. Lei poi mi prende nel suo
 Municipio per assessore delle Belle Arti, eh?" </p>
                <p> Maironi sorrise a fior di labbro e rispose solo: "Va bene". </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Partirono al tramonto, nella stessa carrozza. Prima di uscire dal recinto,
 passando lungo il nero bastione che porta la chiesa, Dessalle esclamò: "E la
 chiesa? Non abbiamo veduta la chiesa!". Uscendo dal refettorio, il custode
@@ -2297,13 +2205,13 @@ signora di cui adesso aveva preso il posto, rivedeva Jeanne nella loggia di
 Praglia con la tazza in mano, riassaporava la tristezza dei grandi occhi
 magnetici, l'ineffabile accento delle sommesse parole: "Si c'ètait du poison,
 faudrait-il boire?". </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO TERZO</head>
             <head>ECLISSI</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> Alquanti consiglieri della maggioranza clericale dovevano riunirsi alle
 quattro in casa Zàupa. La vecchia signora Zàupa non voleva persuadersi che
 questo fosse un onore per lei, per il consigliere suo figlio, per sua nuora,
@@ -2516,9 +2424,9 @@ raccolse il pensiero nella necessità dell'ora presente e chiamò la serva. </p>
                <p> "Quele braghe?" </p>
                <p> "Le xe in cusina, signor." </p>
                <p> "Ben, quando ca sonarò, portèle." </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> I consiglieri invitati vennero alla spicciolata e in ritardo. Alle quattro
 e un quarto erano sette. L'uomo acido e l'uomo amaro, membri essi pure del
 Consiglio e della maggioranza, cominciarono a borbottare insopportabilmente.
@@ -2776,24 +2684,13 @@ signor sindaco. </p>
 lettera, l'aperse, mise una esclamazione, dedicò un nuovo omaggio mentale alla
 finezza dello smilzo abate, chiamò a due mani i colleghi a sè e lesse ad alta
 voce: </p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener>Egregio signore,</opener>
-                           <p>Apprendo che i consiglieri della maggioranza si riuniscono quest'oggi in
+               <quote>Egregio signore,<p>Apprendo che i consiglieri della maggioranza si riuniscono quest'oggi in
 casa Sua per trattare di affari del Comune. Non invitato alla riunione,
 giudico, senza sorpresa e senza il menomo rammarico, che la maggioranza
 desideri troncare i suoi legami con il capo dell'Amministrazione comunale.
 Risolvo perciò di rassegnare immediatamente le mie dimissioni al R. Prefetto e
 ne do comunicazione a Lei, assessore anziano, avvertendola che non rimetterò
-piede in ufficio. </p>
-                           <p> Gradisca, egregio signore, i sentimenti della mia personale osservanza.</p>
-                           <signed>Devotissimo P. Maironi</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+piede in ufficio. </p><p> Gradisca, egregio signore, i sentimenti della mia personale osservanza.</p><p>Devotissimo P. Maironi</p></quote>
                <p> "Evviva!" gridò Quaiotto. "Eclissi del sindaco!" E tutte le facce
 s'illuminarono, meno quella dell'uomo acido. "S'el mandava la so ciacierata
 un'ora prima" diss'egli scendendo le scale, "no me tocaria de magnar i risi
@@ -2810,9 +2707,9 @@ bisbigliate sulle scale, più sommessamente, prima della seduta, fra i
 consiglieri che s'incontrarono a salirle insieme. Così entrano bisbigliando in
 un cavo montano rivoletti che lo empiono di acque silenziose e queste poi
 traboccando insieme a valle ripigliano le chiacchiere con maggior voce. </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> I nuvoli che alle quattro pendevano sulle spettabili tegole dell'onesta
 casa Zàupa, diedero alle sei un violento acquazzone. Tuoni, lampi, furioso
 vento apersero nitide da levante a ponente le vie della luna. Il principio
@@ -3598,13 +3495,13 @@ pericolose, non convenienti alla sua natura delicata e mistica, frutto di
 fantasia. Non un brivido, non una lieve inquietudine le diedero segno che in
 quell'ora stessa il suo amante vegliava immobile e cupo, fissando uno spettro.
 </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO QUARTO</head>
             <head>IL CAFFÈ DEL COMMENDATORE</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> La marchesa Nene, vestita di nero, curva, severa nel viso rugoso e cereo,
 entrò, seguìta da Maironi, con la sua grossa <emph>Filotea</emph> in mano,
 nella cappella del Duomo dove aveva desiderato che si dicesse una messa in
@@ -3922,9 +3819,9 @@ e amarognole nella midolla. </p>
                <p> "Sa cosa?" replicò il Commendatore, molto seccato. "Io faccio come la luna:
 mi eclisso!" </p>
                <p> E sparì nel suo atrio. </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> Don Giuseppe Flores pregava nella chiesina della sua villa, solo, immerso
 in una doppia visione. Gli avveniva spesso, sui sentieri del suo colle, di
 sostare meditando le profondità di Dio e insieme contemplando la bellezza
@@ -4336,9 +4233,9 @@ disordine di vecchie culture mezzo abbandonate. Ma, dileguato appena il rumore
 delle ruote che si portavan lontano quel riverito problema psicologico,
 dimenticò le similitudini poetiche, rientrò in casa pensoso, curvo, sotto il
 peso di altri problemi, di un messaggio difficile. </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Dieci minuti dopo il suo ritorno da Roma, l'ottimo Commendatore sedette
 fresco, sereno, davanti a un mucchio enorme di lettere e stampe, suonò per la
 cameriera e le ordinò un caffè forte. Nello stesso momento il cuoco annunciò il
@@ -4844,13 +4741,13 @@ no che no son curiosa", il padrone la richiamò. </p>
                <p> Trionfo dell'ancella. "Vèdelo vèdelo vèdelo che l'è curioso anca Lu?" </p>
                <p> E la impertinente creatura trottò via senz'altra risposta con il vassoio
 del caffè. </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO QUINTO</head>
             <head>NUMINA, NON NOMINA</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> "Cara" disse Carlino Dessalle, "e i fiori? Sono quasi le cinque, sai!" </p>
                <p> Jeanne stava scrivendo nella sala dell'Ariosto, in faccia all'affresco dove
 la bella, tenera Angelica, legata le gambe ignude allo scoglio, spasima fra la
@@ -5127,9 +5024,9 @@ per pigliarsi spasso dell'idolo e delle svaporate adoratrici. Alla Gonnellina
 poi l'idea di viaggiare con Destemps aveva messo la febbre addirittura, benchè
 il biondo genio fosse sdegnoso dei palpiti immaturi d'un <emph>Backfisch</emph>
 come lei. </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> In principio del pranzo, siccome i fratelli Dessalle, le dame, la signorina
 Bertha e il professore avevano avviato la conversazione in inglese, Gonnelli,
 un <emph>Yorick</emph> che non sapeva l'inglese, apostrofò così a mezza voce il
@@ -5385,9 +5282,9 @@ ribellione, disse con voce vibrante che certi sentimenti erano molto belli,
 molto buoni, molto poetici, che la verità era cattiva, dura e fredda ma che
 l'aveva detta Carlino. Donna Bice ebbe un tocco del suo riso argentino e guardò
 Dessalle. </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Gl'invitati della città, un nuvolo, perchè Carlino voleva riempire per la
 sua conferenza la sala grandissima della Foresteria, cominciarono a venire dopo
 le nove e mezzo, a piedi e in carrozza. Venivano per le due stradicciuole che
@@ -6157,13 +6054,13 @@ pungerne l'amor proprio, l'acconciatura di Jeanne, non sospettavan certo che
 lei, la maggior trionfatrice, chiusa la persona in una veste da camera, sciolti
 i capelli magnifici, piegata la fronte sopra una lettera, piangesse, come la
 notte, un silenzioso pianto. </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO SESTO</head>
             <head>VENA DI FONTE ALTA</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> Il treno diretto diurno di Milano giunse a Rovato, sabato, con venti minuti
 di ritardo, perchè a Treviglio s'era dovuto aggiungere una carrozza. Jeanne
 aveva telegrafato a Maironi da Milano, venerdì mattina, che sarebbe partita
@@ -6408,9 +6305,9 @@ Jeanne trovò modo di chiedergli sottovoce, a mani giunte, la promessa di salire
 a Vena. Lo guardò, perchè egli esitava, con una inesprimibile supplica negli
 occhi, ebbe la promessa, la volle ripetuta, solenne, baciò con soavità umile di
 gratitudine la mano amata. Si lasciarono così. </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> Piero recò subito alla suocera le notizie della figliuola, un po' attenuate
 nella parte più triste. Ella lo accolse affettuosamente, serena come sempre,
 ascoltò il suo racconto, e poi, placida, quasi sorridente, disse una parola di
@@ -6542,12 +6439,7 @@ senza mistura di un desiderio e di una particolare commozione, perchè sempre
 don Giuseppe gli aveva ricondotto le immagini dei suoi genitori e ora gliele
 riconduceva tanto più note e vive e parlanti all'anima sua parole di amore
 imperioso. Aperse la lettera e lesse: </p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener> Caro signore e amico,</opener>
-                           <p> ero venuto da Lei per la silenziosa preghiera d'una poveretta che il
+               <quote> Caro signore e amico,<p> ero venuto da Lei per la silenziosa preghiera d'una poveretta che il
 Signore ha creato augusta e, vorrei dire, sacra, con doni mirabili di dolore e
 di sommessione al dolore. Essa non osò espressamente affidare a questo
 disutile, cadente prete un messaggio per Lei, prezioso e grave di sapienza non
@@ -6555,8 +6447,7 @@ umana. Altre mani erano da questo, io lo tolsi all'insaputa della persona che
 dico; e adesso lodo Chi non permise che io lo portassi con la mia voce malviva,
 con la mia parola rotta. Penso perciò di non ritornare a Lei, d'inviarle dove
 mi han detto ch'Ella ora è il messaggio prezioso senza pronunciarlo, chiuso in
-un ideale vaso suggellato ch'Ella facilmente aprirà se mi ascolta bene. </p>
-                           <p> Pensi anzi tutto le confessioni dolorose che in un'ora di travagliata
+un ideale vaso suggellato ch'Ella facilmente aprirà se mi ascolta bene. </p><p> Pensi anzi tutto le confessioni dolorose che in un'ora di travagliata
 coscienza Ella venne a portarmi nella mia solitudine con tale generoso
 abbandono, con tale generoso impeto che in quel momento io mi sentii umiliato
 davanti a Dio di accettare da Lei parole riverenti. Pensi quindi la creatura
@@ -6567,19 +6458,13 @@ troppo sola nel suo dolore immenso nè dubiti che labbra crudeli non Le
 sussurrino continuamente crudeli parole, non Le parlino di amare offese alla
 sua diletta infelice. Pensi finalmente che la silenziosa preghiera mi viene da
 Lei, e altro ad aprire il vaso chiuso, a leggere il messaggio ascoso non Le
-bisogna. </p>
-                           <p> Prossimo al sepolcro, io sento con tremore e speranza venirmi incontro
+bisogna. </p><p> Prossimo al sepolcro, io sento con tremore e speranza venirmi incontro
 anime care e sante che partirono prima di me. Stamani all'altare pregai la
 Divina Misericordia che mi concedesse di partire alla mia volta con un altro
 messaggio, con un messaggio dolcissimo per due di quelle anime ascese in Dio,
 per due anime che nel loro cammino terreno santificarono a Lei, caro amico, una
 simile casa fra due cipressi, in riva ad acque solitarie, accanto a una povera
-chiesina che neppure io so dimenticare. </p>
-                           <signed>Suo D. Giuseppe Flores</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+chiesina che neppure io so dimenticare. </p><p>Suo D. Giuseppe Flores</p></quote>
                <p> Era una commovente lettera e aveva in sè dolcezza di conforto che lo
 scrittore non aveva sospettata. Non era Piero già disposto ad allontanarsi da
 Jeanne? Non era egli anche avviato a compiere un grande atto di giustizia, il
@@ -6612,9 +6497,9 @@ difficile spogliarsi degli averi e dei piaceri? </p>
                <p> Egli ebbe un momento di orgoglio pensando che questo appunto stava per fare
 benchè non fosse santo nè legato, di fatto, ad alcuna Chiesa, ad alcun
 <emph>Credo</emph> ufficiale. </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Quella sera stessa, molto più tardi, scrisse al suo avvocato per chiedergli
 un colloquio. Era una notte afosa, in casa si soffocava. Piero sentiva che se
 si fosse coricato non avrebbe potuto, un po' per il caldo, un po' per
@@ -7155,9 +7040,9 @@ momento! Ella fe' loro cenno che tacessero e si allontanò con Piero mentre il
 violino riattaccava l'apostrofe ardente che parve adesso quel che forse
 immaginò l'autore del pezzo, il vecchio Tartini, un demoniaco, amaro grido di
 trionfo. </p>
-            </div>
-            <div type="paragrafo">
-               <head>V</head>
+            
+            <milestone unit="paragrafo"/><p><label>V</label></p>
+               
                <p> Quella sera gli ospiti dell'<emph>Hôtel Astore</emph> si ritirarono di
 buon'ora. Carlino era molto seccato della scomparsa di sua sorella con Piero
 dal Covile del Cinghiale, era seccato che fosse andata fino a Rio Freddo con la
@@ -7186,9 +7071,9 @@ di Maironi, troncò il discorso: </p>
                <p> "Basta" diss'egli "adesso si prende il tè." </p>
                <p> Mentre si prese il tè non furono scambiate che poche parole gelide. Poi
 tutti si ritirarono. </p>
-            </div>
-            <div type="paragrafo">
-               <head>VI</head>
+            
+            <milestone unit="paragrafo"/><p><label>VI</label></p>
+               
                <p> La camera di Piero metteva sul largo andito centrale dell'albergo in faccia
 a quella di Jeanne. Accanto a Piero dormiva Bassanelli e le due camere erano
 divise da un semplice assito. Il geloso Bassanelli uscì dal salotto Dessalle,
@@ -7241,21 +7126,9 @@ immobile. L'altro attese un poco e poi gli domandò se avesse ordini. Piero si
 scosse, rispose che ci avrebbe pensato, che intanto il vetturale aspettasse; e
 si fece accendere il lume. </p>
                <p> Uscito l'albergatore, rilesse. Scriveva la marchesa, così:</p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <dateline rend="italic">Domenica ore 7 p.</dateline>
-                           <opener>Carissimo Piero,</opener>
-                           <p> il dottore telegrafa a papà: — Condizioni fisiche aggravate. Ora,
+               <quote><p>Domenica ore 7 p.</p>Carissimo Piero,<p> il dottore telegrafa a papà: — Condizioni fisiche aggravate. Ora,
 perfettamente lucida, chiede vedere genitori, marito, don Giuseppe Flores
-— Noi partiamo subito. Don Giuseppe ci raggiungerà questa notte. </p>
-                           <p> Prega! </p>
-                           <signed rend="italic">La mamma</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
+— Noi partiamo subito. Don Giuseppe ci raggiungerà questa notte. </p><p> Prega! </p><p>La mamma</p></quote>
                <p> Piero si strinse i pugni sugli occhi, tanto forte che le braccia gli
 tremarono. Dopo due minuti scostò e alzò lentamente i pugni, fissando il lume,
 ansando. Poi, come per uno scatto improvviso di volontà, raccolse le sue robe a
@@ -7283,13 +7156,13 @@ sconquassato, accanto al compagno muto; giù, giù, sino al fondo, al suono di
 ombrose correnti, a una prima sosta. </p>
                <p> Quante ora ancora? </p>
                <p> Sei ore. </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO SETTIMO</head>
             <head>IN LUMINE VITAE</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> Arrivò allo Stabilimento poco dopo le nove. In portineria c'era l'ordine di
 accompagnarlo dal Direttore. Questi, avvertito col portavoce, gli venne
 incontro sulla scala, ripetendo premurosamente "bravo, bravo, bravo" e alla
@@ -7395,9 +7268,9 @@ dubbio, una voce che Piero intese a questo modo: "Non è meglio, per qualche
 ragione da tacere, che parli proprio Lei?" </p>
                <p> Si bussa all'uscio. Un'inserviente avverte ch'è giunto il professore
 chiamato per telegrafo da Bologna. </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> Era una lunga via dallo studio del Direttore al piccolo quartiere appartato
 dove la povera Elisa aveva così lungamente sofferto e ora stava morendo.
 C'erano scale da scendere e salire, lunghi corridoi da percorrere, cortili da
@@ -7457,9 +7330,9 @@ alternandosi, scintille di dolore, scintille di tenerezza, sorrisi di pace.
 sai". </p>
                <p> Ella chiuse gli occhi, beata, e rispose: </p>
                <p> "Del Signore." </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Nel corso della giornata si manifestò un lieve miglioramento. Il professore
 di Bologna aveva necessariamente stancata l'inferma con gl'interrogatori e le
 auscultazioni; le aveva quindi prescritto il più assoluto riposo. La diagnosi
@@ -7725,9 +7598,9 @@ ancora. La mamma dice "va là, va là" con bonaria placidezza. Essa le risponde
 di prepararsi e che sarà presto presto e che n'è tanto contenta. La mamma tace,
 le campane suonano, suor Eletta apre un poco le imposte, l'inferma vede
 l'oriente imbiancarsi per lei l'ultima volta. </p>
-            </div>
-            <div type="paragrafo">
-               <head>V</head>
+            
+            <milestone unit="paragrafo"/><p><label>V</label></p>
+               
                <p> Don Giuseppe celebrò la messa verso le cinque e mezzo. Il parroco del luogo
 raccontò poi, tutto edificato, che non aveva veduto alcuno celebrare con tanto
 fervore nella voce, con tanta pietà nel volto, con tanto profondi sospiri e
@@ -7822,9 +7695,9 @@ Malgrado se stesso, ne soffriva. Mentre don Giuseppe gli aveva esposte quelle
 considerazioni prudenti, aveva dubitato anche lui. Poi l'anima sua si venne
 lentamente componendo in una pace piena di certezza, come acque agitate posando
 poco a poco fermano in sè le immagini delle cose imminenti. </p>
-            </div>
-            <div type="paragrafo">
-               <head>VI</head>
+            
+            <milestone unit="paragrafo"/><p><label>VI</label></p>
+               
                <p> Il sacramento è amministrato, il male precipita, l'inferma non parla più,
 la speranza terrena esce a capo chino dalle camere silenziose, le speranze
 celesti entrano solenni e soavi, annunciando col dito alle labbra un angelo
@@ -7884,9 +7757,9 @@ all'altare: </p>
                <p> "Non è morte. È lume di vita eterna." </p>
                <p> Un solo fiore non perdette per lei l'ora sua breve, la madre non ne volle
 sul letto funebre. </p>
-            </div>
-            <div type="paragrafo">
-               <head>VII</head>
+            
+            <milestone unit="paragrafo"/><p><label>VII</label></p>
+               
                <p> Verso mezzanotte, in uno stanzino dell'albergo ammorbato di muffe, al lume
 di una candela di sego, Piero e don Giuseppe ragionavano insieme, a bassa voce,
 della morta, dell'occulto tesoro spirituale ch'era stato in lei. </p>
@@ -8109,13 +7982,13 @@ necessari per far nascere una cosa grande." </p>
                <p> "Mi pare" osserva timidamente la signora Cerri parlando a Jeanne "che
 qualche volta succeda così anche nella vita. Non ti pare?" </p>
                <p> Jeanne tace. </p>
-            </div>
+            
          </div>
-         <div type="capitolo">
+         <div type="chapter">
             <head>CAPITOLO OTTAVO</head>
             <head>SENZA TRACCIA</head>
-            <div type="paragrafo">
-               <head>I</head>
+            <milestone unit="paragrafo"/><p><label>I</label></p>
+               
                <p> Da tre giorni la gracile spoglia dello spirito asceso alla Vita posava
 dentro il piccolo cimitero bianco fra le viti, gli ulivi e gli allori della
 terra gentile, poco sopra lo specchio del lago. La notte cadente era inquieta.
@@ -8238,9 +8111,9 @@ Signore: <emph>quaerens me sedisti lassus!</emph> Quante volte non mi ha
 richiamato e io mi ostinavo a perdermi! Anche con la Sua cara ultima lettera! È
 stato perchè tutto io debba riconoscere da Lui e niente, proprio niente, da
 me." </p>
-            </div>
-            <div type="paragrafo">
-               <head>II</head>
+            
+            <milestone unit="paragrafo"/><p><label>II</label></p>
+               
                <p> Il pacco venuto dalla posta era in sala. Piero lesse sul timbro,
 accostandolo al lume: </p>
                <p> </p>
@@ -8295,9 +8168,9 @@ mani benedicenti. Quando alzò il viso la luna era discesa occultamente al
 tramonto, il campo sacro e le mura si erano oscurate, le quattro epigrafi non
 si leggevano più, le mani benedicenti si erano raccolte su al loro soggiorno di
 mistero. </p>
-            </div>
-            <div type="paragrafo">
-               <head>III</head>
+            
+            <milestone unit="paragrafo"/><p><label>III</label></p>
+               
                <p> Don Giuseppe si attardò a contemplare il lago, le ombre della notte, un
 lontano lume alle falde del San Salvatore. Quanto, pensava, erano mutati gli
 uomini in Valsolda, da buon tempo antico e quanto poco le cose! Al tornare di
@@ -8345,17 +8218,12 @@ parlò. Egli rispose allora: </p>
 deserti come la donna che aveva loro spirato in segreto il suo cupo affanno.
 Così tanti anni prima, in quella stessa camera dell'alcova, si era infuso a
 recisi moribondi fiori l'affanno cupo di Luisa. </p>
-            </div>
-            <div type="paragrafo">
-               <head>IV</head>
+            
+            <milestone unit="paragrafo"/><p><label>IV</label></p>
+               
                <p> Prima di coricarsi don Giuseppe scrisse alla marchesa Nene la seguente
 lettera: </p>
-               <quote>
-                  <floatingText>
-                     <body>
-                        <div rend="italic">
-                           <opener>Ottima signora Marchesa,</opener>
-                           <p> abbiamo deposto la diletta Sua nel campo di riposo che il santo, gentile
+               <quote>Ottima signora Marchesa,<p> abbiamo deposto la diletta Sua nel campo di riposo che il santo, gentile
 desiderio di lei nominò. È stato un momento solenne. Il campo, la gradinata che
 vi sale, l'angusta via di sotto eran gremiti di gente silenziosa, commossa. Io
 dissi alla Eletta del Signore poche parole come seppi, nel nome di noi ch'ella
@@ -8366,8 +8234,7 @@ l'affetto che tutti qui portano ancora alla memoria delle persone che le sono
 vicine in terra come nel cielo. Il luogo è bello, fra viti e ulivi, presso alla
 riva del lago. Il cielo sereno, il lago tutto lucente nel vento estivo, il gaio
 stormir delle frondi parevano dirci di non piangere perchè la nostra morta era
-nella gioia immensa della visione divina. </p>
-                           <p> Ricevetti oggi la Sua lettera. Creda che io stesso accolsi con certa
+nella gioia immensa della visione divina. </p><p> Ricevetti oggi la Sua lettera. Creda che io stesso accolsi con certa
 diffidenza l'annuncio del proposito concepito da Suo genero di uscire dal mondo
 per abbracciare uno stato di assoluta povertà e penitenza; nè penso aver
 mancato al mio dovere di consigliargli riflessione, preghiere, paziente attesa
@@ -8392,18 +8259,12 @@ ne debba dar lode a Dio per vista come di tutto che Le accade gli dà lode per
 fede; tale un frutto che dissipi certi giudizi e sospetti e timori circa il
 carattere del fervore religioso di Suo genero pervenuto sino a me e, secondo la
 sapienza del mondo, non del tutto infondati nelle parvenze. A fructibus eorum
-cognoscetis eos. </p>
-                           <p> Iddio continui a benedirla di santi pensieri e conservi a noi lungamente
+cognoscetis eos. </p><p> Iddio continui a benedirla di santi pensieri e conservi a noi lungamente
 chi tanto ci riflette della sua luce e della sua pace. Domani celebrerò in
-suffragio della Sua Elisa. </p>
-                           <signed>Devotissimo Don Giuseppe Flores</signed>
-                        </div>
-                     </body>
-                  </floatingText> 
-               </quote>
-            </div>
-            <div type="paragrafo">
-               <head>V</head>
+suffragio della Sua Elisa. </p><p>Devotissimo Don Giuseppe Flores</p></quote>
+            
+            <milestone unit="paragrafo"/><p><label>V</label></p>
+               
                <p> L'indomani mattina, prima di uscire con la messa, don Giuseppe domandò se
 il signor Maironi fosse in chiesa, e, udito che no, attese, così parato,
 alquanto. Finalmente, tardando ancora Maironi a venire, uscì. Rientrato in
@@ -8451,7 +8312,7 @@ Nessuno lo aveva incontrato, nessuno lo aveva veduto, nessuno ne aveva udito i
 passi. Se mai sia per venire il giorno in cui la occulta via dell'uomo
 scomparso si riveli, in cui ci si apprenda il perchè di tanto mistero, solo Chi
 lo ha chiamato alle proprie battaglie lo sa. </p>
-            </div>
+            
          </div>
       </body>
    </text>

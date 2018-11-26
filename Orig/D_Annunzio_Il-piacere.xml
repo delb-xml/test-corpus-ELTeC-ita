@@ -29,34 +29,26 @@
                 <date>2000</date>
             </publicationStmt>
             <sourceDesc>
-                <biblFull>
-                    <titleStmt>
+                <bibl>
+                  
                         <title type="princ">Prose di romanzi</title>
                         <title type="sub">Volume primo</title>
                         <author>
-                            <persName>
-                                <surname>D'annunzio</surname>
-                                <forename>Gabriele</forename>
-                            </persName>
+                            D'annunzio, Gabriele
                         </author>
                         <editor>
                             <name>Annamaria Andreoli</name>
                         </editor>
-                    </titleStmt>
-                    <editionStmt>
-                        <edition>I</edition>
-                    </editionStmt>
-                    <extent>XLII, 1349 p.; 17 cm. </extent>
-                    <publicationStmt>
-                        <publisher>Mondatori</publisher>
+                  
+                   <!-- <extent>XLII, 1349 p.; 17 cm. </extent>
+                  
+                 -->      <publisher>Mondatori</publisher>
                         <pubPlace>Milano</pubPlace>
                         <date>1988</date>
                         <idno type="ISBN">88-04-31203-3</idno>
-                    </publicationStmt>
-                    <seriesStmt>
-                        <title>I Meridiani</title>
-                    </seriesStmt>
-                </biblFull>
+                                            <title level="s">I Meridiani</title>
+                    
+                </bibl>
             </sourceDesc>
         </fileDesc>
 
