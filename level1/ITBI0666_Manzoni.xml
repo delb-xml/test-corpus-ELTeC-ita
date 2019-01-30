@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title>Promessi Sposi: edizion ELTeC</title>
-            <author>Manzoni, Alessandro (? - ?)</author>
+            <author>Manzoni, Alessandro (1785-1873)</author>
             <respStmt>
                <resp>ELTeC encoding</resp>
                <name>Lou Burnard</name>
@@ -16,7 +16,7 @@
          </publicationStmt>
 
          <sourceDesc>
-            <bibl>
+            <bibl type="printSource">
                <title>Tutte le opere</title>
                 <author>Manzoni, Alessandro</author>
                <respStmt>
@@ -31,7 +31,7 @@
                <pubPlace>Milano</pubPlace>
                <date>1954-</date>
             </bibl>
-            <bibl type="copyText"><date>1842</date></bibl>
+            <bibl type="firstEdition"><date>1842</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
