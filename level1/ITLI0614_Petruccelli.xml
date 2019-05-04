@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0614">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0614">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>I moribondi del Palazzo Carignano  : ELTeC edition</title><author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li0614 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0614.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0614.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI0614 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0614.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0614.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					"I moribondi del Palazzo Carignano", di Ferdinando Petruccelli della Gattina; F. Perelli;  Milano, 1862  CODICE ISBN: informazione non disponibile <date>1862(1862)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

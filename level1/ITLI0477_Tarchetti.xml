@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0477">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0477">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>Fosca : ELTeC edition</title><author ref="viaf:34557152">Tarchetti, Iginio Ugo (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li0477 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0477 
+				         ITLI0477 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0477 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0477">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0477">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Fosca Edizione Centopagine I Einaudi, 1971 <date>1971(1869)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>

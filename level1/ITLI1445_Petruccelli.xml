@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1445">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1445">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Memorie di Giuda : ELTeC edition</title><author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li1445 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1445.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1445.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI1445 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Memorie di Giuda / F. Petruccelli Della Gattina - Milano : F.lli Treves, 1883 - 2 vv 20 cm.; 1° vol. 284 p., 2° vol 284 pp. <date>1883(1867)</date>, <idno>mancante</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

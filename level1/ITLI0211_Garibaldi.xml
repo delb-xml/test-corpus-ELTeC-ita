@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0211">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0211">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Clelia ovvero Il governo dei preti : ELTeC edition</title><author ref="viaf:100192194">Garibaldi, Giuseppe (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li0211 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0211.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0211.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI0211 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0211.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0211.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					"Clelia Il governo dei preti" Casa editrice MEB, Torino 1982 Ristampa anastatica dell'edizione Fratelli Rechiedei  Milano, 1870 <date>1870(1870)</date>, <idno>mancante</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

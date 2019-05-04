@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0735">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0735">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>Il marito di Elena : ELTeC edition</title><author ref="viaf:18647">Verga, Giovanni (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li0735 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0735 
+				         ITLI0735 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0735 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0735">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0735">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					unav.<date>unav.(1875)</date>, <idno>88-403-9342-0</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>

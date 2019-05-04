@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0566">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0566">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Pasquale Paoli, ossia La rotta di Ponte Nuovo : ELTeC edition</title><author ref="viaf:66538608">Guerrazzi, Francesco Domenico (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li0566 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0566.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0566.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI0566 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0566.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0566.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Pasquale Paoli, ossia La rotta di Ponte Nuovo : romanzo storico / di F. D. Guerrazzi / Roma : E. Perino, 1883 / 605 p. : ill. ; 24 cm. <date>1883(1860)</date>, <idno>mancante</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

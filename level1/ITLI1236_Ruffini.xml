@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1236">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1236">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Lorenzo Benoni, ovvero scene della vita di un italiano : ELTeC edition</title><author ref="viaf:49384032">Ruffini, Giovanni (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li1236 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1236.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1236.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI1236 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1236.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1236.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					"Lorenzo Benoni, ovvero scene della vita di un italiano", di Giovanni Ruffini; a cura di Martino Marazzi; Piccoli classici italiani, 5; De Ferrari; Genova, 2005 <date>2005(1853)</date>, <idno>88-7172-730-4</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

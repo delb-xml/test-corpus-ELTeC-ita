@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0202">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0202">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Cent'anni : ELTeC edition</title><author ref="viaf:2579508">Rovani, Giuseppe (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li0202 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0202.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0202.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI0202 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0202.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0202.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Cent'anni di Giuseppe Rovani,  Aldo Garzanti editore, 1975  collezione "I grandi libri" <date>1975(1859)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

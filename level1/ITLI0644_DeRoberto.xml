@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0644">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0644">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>I Viceré : ELTeC edition</title><author ref="viaf:2468980">De Roberto, Federico (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li0644 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0644.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0644.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI0644 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0644.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0644.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					I Vicere / Federico De Roberto ; a cura di Sergio Campailla. - Ed. integrale. - Roma : Biblioteca economica Newton, 1995. - 416 p. ; 22 cm. " (Biblioteca economica Newton. Classici ; 76) <date>1995(1894)</date>, <idno>88-8183-203-8</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1152">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1152">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Le confessioni d'un Italiano : ELTeC edition</title><author ref="viaf:68995581">Nievo, Ippolito (?-?)</author></titleStmt>
@@ -11,9 +11,9 @@
                 published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
                 4.0 
 				 2017 
-				 li1152 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1152.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1152.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+				 ITLI1152 
+			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml--></p></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					"Le confessioni d'un Italiano" di Ippolito Nievo, Einaudi, 1964 <date>1964(1867)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		</fileDesc>

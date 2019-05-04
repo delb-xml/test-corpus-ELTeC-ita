@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1693">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1693">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>Tigre reale : ELTeC edition</title><author ref="viaf:18647">Verga, Giovanni (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li1693 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1693 
+				         ITLI1693 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1693 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1693">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1693">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Romanzi giovanili / Giovanni Verga; postfazione di Giuseppe Leonelli. &#x96; Milano : Frassinelli, 1996. &#x96; (I classici classici) <date>1996(1875)</date>, <idno>88-7684-378-7</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>

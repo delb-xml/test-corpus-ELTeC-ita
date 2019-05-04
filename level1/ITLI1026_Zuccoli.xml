@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1026">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1026">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>La freccia nel fianco : ELTeC edition</title><author ref="viaf:7141879">Zuccoli, Luciano (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li1026 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1026 
+				         ITLI1026 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1026 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1026">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1026">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					La freccia nel fianco : romanzo / Luciano Zuccoli - Milano : Treves,  [1917] - 316 p. ; 19 cm. <date>1917(1913)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>

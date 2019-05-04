@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li1489">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1489">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>Profumo : ELTeC edition</title><author ref="viaf:24615920">Capuana, Luigi (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li1489 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1489 
+				         ITLI1489 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1489 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1489">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1489">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					Profumo di Luigi Capuana; a cura di Paola Azzolini; collezione: Oscar Classici, 370; Arnoldo Mondadori Editore;  Milano, 1996 <date>1996(1892)</date>, <idno>88-04-40942-8</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>

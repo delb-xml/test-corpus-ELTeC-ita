@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="li0770">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0770">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt><title>Il Piacere : ELTeC edition</title><author ref="viaf:49220129">D'Annunzio, Gabriele (?-?)</author></titleStmt>
@@ -14,10 +14,10 @@
                 4.0
              
 				         2017 
-				         li0770 
-			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0770 
+				         ITLI0770 
+			          https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0770 
          --></p></publicationStmt>
-			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0770">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			      <sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0770">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
 					"Il Piacere", di Gabriele D'Annunzio edizione a cura di Giansiro Ferrata Oscar Mondadori, narrativa n. 179 Mondadori SIAE n. 17374, Giugno 1989 <date>1989(1889)</date>, <idno>unav.</idno>, .
 				</bibl></relatedItem></bibl></sourceDesc>
 		    </fileDesc>
