@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1099">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
-			      <titleStmt><title>La scapigliatura e il 6 febbrajo : ELTeC edition</title><author ref="viaf:66678990">Righetti, Carlo (alias Cletto Arrighi) (?-?)</author></titleStmt>
+			      <titleStmt><title>La scapigliatura e il 6 febbrajo : ELTeC edition</title>
+			         <author ref="viaf:66678990">Righetti, Carlo [Cletto Arrighi] (?-?)</author></titleStmt>
 			<extent><measure unit="words">65883</measure></extent>
 			      <publicationStmt><p>Incorporated into the ELTeC <date>2019-01-29</date><!--
 				         CLiGS 

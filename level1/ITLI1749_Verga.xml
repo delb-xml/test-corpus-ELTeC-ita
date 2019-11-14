@@ -692,14 +692,14 @@
             <p>«Vi assicuro che non ho ancora l'onore di essere conosciuto personalmente da quella signora...»</p>
             <p>«Il conte però sembra che vi conosca molto bene... A domani!»</p>
             <p>A mezzanotte Brusio rientrando trovò una lettera che il cameriere gli disse aver recato due ore avanti una giovane assai elegante, che erasi annunciata per la cameriera della contessa di Prato. Egli aprì con febbrile impazienza la lettera profumata, della quale il bellissimo carattere inglese era tracciato con mano incerta, e vi lesse:</p>
-            <div type="letter">
+            <quote>
                <p>Signore,</p>
                <p>Il conte l'ha sfidato. Le condizioni di questo duello sono orribili: due uomini che si battono alla pistola non si battono per una semplice riparazione; si battono per uccidersi. Questo duello è un delitto.</p>
                <p>A Napoli si è molto parlato del suo scontro di un mese fa con un giornalista il quale ancora guarda il letto; si dice ancora che ella è un terribile tiratore; il conte anche lui possiede questa sciagurata destrezza... E questi due uomini, che si odiano a morte, andranno, domani, dope essersi abbigliati freddamente, come al solito, dopo di aver fatto attaccare la carrozza, dopo di essersi salutati civilmente, a mettersi a 15 o 20 passi di distanza colle pistole in mano, mirando col triste sangue freddo che deve dare in mano dell'uno la vita dell'altro... Oh! signore!... lo ripeto: questo è delitto!... questo è il più spietato assassinio legale!... O il conte resta ucciso ed io avrò il rimorso di essere stata causa della sua morte... o invece...</p>
                <p>Signore... a Catania conobbi un giovane nobile e generoso... che mostrava d'amarmi... Io invoco questa memoria per scongiurare tale disgrazia... Questo duello non deve aver luogo! Si ritratti, signore, il conte accetterà le sue più semplici scuse, e le basterà di fare il primo passo perch'egli le venga incontro a stringerle la mano. Se ha una madre pensi a questa madre, se ha un'amante pensi all'amante, signore... e farà il più nobile sacrifizio che amor proprio d'uomo possa fare evitando questo duello.</p>
                <p>Narcisa Valderi</p>
-            </div>
-            <div>
+            </quote>
+            
                <p>Pietro fu tristamente colpito da quella lettera. Egli si aspettava tutt'altro, egli credeva di trovare affettuose parole di donna amante, e per contro rinvenne la moglie che supplicava il duellista famoso per la vita del marito; egli non vide, non seppe scorgere tutto ciò che lasciava [in]travedere, che accennava anche quella lettera che parlava delle reminiscenze di Catania... poiché a quelle reminiscenze non si era data più importanza di quanta se ne dà a sentimenti che non si dividono; avea riletto due o tre volte una parola, quell'o invece... che un momento avea fatto la sua speranza, come se avesse cercato interpretare tutto il senso di quei puntini che la seguivano, e trovarvi quello che il suo cuore voleavi vedere; ma quei puntini potevano anche nascondere, come spesso, il nulla.</p>
                <p>Se Narcisa gli avesse scritto semplicemente: Pietro, non uccidete mio marito, ritrattatevi: egli non si sarebbe ritrattato, ma non avrebbe neanche fatto il passo che fece, rimandandole la lettera, come una suprema impertinenza.</p>
                <p>Sorridendo del suo riso amaro, scrisse, in basso della stessa lettera della contessa, queste sole linee, che gli parve la completassero, e ne fossero la degna risposta, mormorando fra i denti stretti dal sarcasmo: «Ah! costei ha paura che io le uccida il marito!... costei si rivolge al giovane di Catania, e ne accenna la memoria, come si farebbe di un balocco ad un fanciullo; per ottenere il suo intento!... Ma non sa questa donna quali lagrime stillino ancora queste memorie?!...».</p>
@@ -710,7 +710,7 @@
                <p>«Recate al suo indirizzo questa lettera, e dite alla contessa di avervela io data nel punto di montare in carrozza. Fate avanzare».</p>
                <p>«La carrozza!», gridò il cameriere.</p>
                <p>I briosi cavalli lo trasportarono rapidamente all'abitazione del barone, nella strada del Pilierò, ove aspettavano i due testimoni.</p>
-            </div>
+            
          </div>
          <div type="chapter">
             <head>VII</head>
@@ -850,7 +850,7 @@
          </div>
          <div type="chapter">
             <head>VIII</head>
-            <div type="letter">
+            <quote type="letter">
                <p>Sig. Raimondo Angiolini - Siracusa.</p>
                <p>Catania, *** Agosto 186*</p>
                <p>Amico mio,</p>
@@ -878,8 +878,8 @@
                <p>«Ciò che io rimpiango sono i giorni che vi ho passato senza di te, e che avrebbero accumulato tesori d'amori e di ricordi trascorsi al tuo fianco».</p>
                <p>Io ti ringrazio, amico mio, delle cure affettuose che prodighi alla mia famiglia. Vicini a te, quei miei cari, io son tranquillo sul loro stato. Dirai a mia madre che non oso scriverle; e che qualche giorno correrò sino a Siracusa per farmi perdonare il mio lungo silenzio fra le sue braccia. Addio, addio! Narcisa mi chiama; domani forse ti scriverò più a lungo.</p>
                <p>Il tuo Pietro</p>
-            </div>
-            <div type="letter">
+            </quote>
+            <quote type="letter">
                <p>Sig. Raimondo Angiolini - Siracusa.</p>
                <p>Aci-Castello. *** Novembre 186*</p>
                <p>Signore,</p>
@@ -1108,8 +1108,8 @@
                <p>«Addio dunque!», gli dissi con una calma nella voce della quale io stessa ero atterrita: «Addio, Pietro!...».</p>
                <p>Egli cercò le mie labbra colle sue, fredde, tremanti d'angoscia e di voluttà.</p>
                <p>«Addio!...», gli mormorarono ancora le mie labbra palpitanti nelle sue - E svenni fra le sue braccia.</p>
-            </div>
-            <div type="diary">
+            </quote>
+            <quote type="diary">
                <p>11 Novembre</p>
                <p>Posdomani egli deve partire. Ho numerato minuto per minuto queste ultime ore che io ho passato vicino a lui... cercando illudermi spesso per sentirne poi più amaramente tutta la disperazione del disinganno.</p>
                <p>No! lo sento... il suo cuore non può più rinascere per me! Egli tenta lusingarsi nelle sue speranze... o piuttosto ha pietà di quello che soffro...</p>
@@ -1133,7 +1133,7 @@
                <p>Che fare?... che fare, Dio mio?!... Se fossi pazza?!... se impazzissi?!... Dio!!!...</p>
                <p>No! Dio non può punirmi del mio delitto... No! Dio non può punirmi dell'opera sua... perché... perché io son debole... perché io son vile dinanzi all'estensione di questo dolore sovrumano che mi si apre dinanzi... perché io, da Lui che mi percuote, voglio il sonno... l'oblìo almeno!...</p>
                <p>Dio! Dio!... pietà! pietà!... grazia!!!...</p>
-            </div>
+            </quote>
          </div>
          <div type="chapter">
             <head>IX</head>
