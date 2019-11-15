@@ -6,7 +6,7 @@ This is the Italian novel collection for the ELTeC, the European Literary Text C
 
 General information about ELTeC releases is available at https://github.com/COST-ELTeC/ELTeC.
 
-The ELTeC-ita collection as it stands contains 36 novels encoded at level 1. The corpus composition criteria are fulfilled.
+The ELTeC-ita collection as it stands contains 36 novels encoded at level 1. The corpus composition criteria are not yet fully fulfilled.
 
 ## Contributors
 
