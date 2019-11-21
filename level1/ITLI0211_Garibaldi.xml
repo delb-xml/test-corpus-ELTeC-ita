@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0211">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI0211">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Clelia ovvero Il governo dei preti : ELTeC edition</title><author ref="viaf:100192194">Garibaldi, Giuseppe (?-?)</author></titleStmt>
 			<extent><measure unit="words">74110</measure></extent>
-			<publicationStmt><p>Incorporated into the ELTeC <date>2019-01-29</date><!--
-				 CLiGS 
-				 The files of the collection are  modifications of the corresponding text files from 'Liber
-                Liber'(https://www.liberliber.it/online/), which are provided with a Creative
-                Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
-                published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
-                4.0 
-				 2017 
-				 ITLI0211 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0211.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0211.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			<publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC 2019-01-29--></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0211.xml">CLIGS version</ref></bibl><bibl type="printSource">
 					"Clelia Il governo dei preti" Casa editrice MEB, Torino 1982 Ristampa anastatica dell'edizione Fratelli Rechiedei  Milano, 1870 <date>1870(1870)</date>, <idno>mancante</idno>, .
-				</bibl></relatedItem></bibl></sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
         <encodingDesc n="eltec-1"><p>Downcoded from CLIGS</p></encodingDesc>
-        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="medium"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="medium"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
-        <revisionDesc><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
+        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="medium"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="unspecified"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
+        <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
                 corrections.</change><change when="2017-11-27">kb : Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change><change when="2015-11-21">cf : Initial TEI version.</change></revisionDesc>
     </teiHeader>
     <text xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <front>
-    <div>
+    <div type="liminal">
     	<head>Giuseppe Garibaldi</head>
     	<head>Clelia: il governo dei preti: romanzo storico politico</head>
     	<head>PREFAZIONE DELL'EDITORE</head>
@@ -37,7 +33,7 @@
     	<p>Fratelli Rechiedei</p>
     	<p>Milano 1870</p>
         </div>
-    	<div>
+    	<div type="liminal">
     		<head>PREFAZIONE</head>
     		<p>1. Ricordare all'Italia tutti quei valorosi che lasciaron la vita sui campi di battaglia per essa. Perché se molti sono conosciuti, e forse i più cospicui, molti tuttavia sono ignorati. A ciò mi accinsi come dovere sacro.</p>
     		<p>2. Trattenermi colla gioventù Italiana sui fatti da lei compiuti e sul debito sacrosanto di compire il resto accennando colla coscienza del vero le turpitudini ed i tradimenti dei governi e dei preti.</p>
@@ -1700,7 +1696,7 @@
 <p>"Sì, Thompson, a bordo, e metteremo alla vela subito per uscire d'Italia. È una terra, come dice Alfieri, ove la pianta uomo nasce più robusta che dovunque e gli stessi atroci delitti che vi si commettono ne sono una prova". Non molto tempo dopo lo Yacht veleggiava superbo verso la merry England(100).</p>
 <p>Giulia, tornata nella terra natale, continuò le sue affettouse cure alla nuova famiglia alla quale non tardarono a riunirsi Manlio e Silvia rimasti fino allora nella Solitaria e giurò che non tornerebbe tra questo popolo infelice se non quando Roma, libera dalla peste pretina, le permetterebbe d'innalzare un monumento al diletto del suo cuore ed ai suoi eroici compagni.</p>
 </div>
-</body><back><div>
+</body><back><div type="liminal">
 	<head>APPENDICE</head>
 	<head>GLI ULTIMI EPISODI DEI VOLONTARI</head>
 	<head>FATTI ISTORICI</head>
@@ -1721,7 +1717,7 @@
 	<p>Maledizione! Fino a che punto può giungere la perversità umana! e quale lezione per l'italiana gioventù!</p>
 	<p>Quei vittoriosi militi piegano in ritirata!... né odono più la rauca mia voce e quella dei prodi miei ufficiali!...</p>
 	<p>Ricordiamola questa recente storia: poi ditemi come si fa a non intingere la penna nel fiele, a non temperarla col pugnale!</p></div>
-	<div>
+	<div type="liminal">
 	<head>RIEPILOGO</head>
 	<head>IL PANDEMONIO</head>
 	<p>Chi potrà negare: essere questa Italia un pandemonio?</p>
@@ -1746,7 +1742,7 @@
 	<p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
 	<p>Così si compivano due osceni ed esecrandi tradimenti, ai quali riscontro non può offrire alcuna pagina della storia del mondo.</p>
 
-</div><div>
+</div><div type="liminal">
 	<p>(1) Proverbio, detto.</p>
 	<p>(2) La Clelia Romana del tempo di Porsenna.</p>
 	<p>(3) I trasteverini si credono pura stirpe degli antichi Romani.</p>

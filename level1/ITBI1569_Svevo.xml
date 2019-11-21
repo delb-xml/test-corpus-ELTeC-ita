@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI1569" xml:lang="it">
 <teiHeader>
 <fileDesc>
@@ -11,12 +15,9 @@
 </respStmt>
 </titleStmt>
 <extent><measure unit="words">141904</measure></extent>
-<publicationStmt>
-<p>Published as part of ELTeC : <date/></p>
-</publicationStmt>
+<publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
 
-<sourceDesc>
-<bibl>
+<sourceDesc><bibl type="unspecified">
   <title>Opera omnia</title>
   <title>Romanzi</title>
   <author>Svevo, Italo</author>
@@ -29,9 +30,7 @@
   <date>1969</date>
   <note>Contiene: Una vita ; Senilita ; La coscienza
   di Zeno</note>
-</bibl>
-<bibl type="firstEdition"><date>1923</date></bibl>
-</sourceDesc>
+</bibl><bibl type="firstEdition"><date>1923</date></bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
 <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione Decimale Dewey Classificazione generi BibIt--></p>
@@ -52,7 +51,7 @@
 <e:timeSlot key="T4"/>
 </textDesc>
 </profileDesc>
-<revisionDesc>
+<revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
 <change when="2018-11-24">LB: convert to eltec </change>
  <change when="2003-12-01">Elena Pierazzo BIBIT:
 Validazione</change>
@@ -108,8 +107,7 @@ Codifica con software</change>
   guardare tanto lontano. Anche le cose recenti sono
   preziose per essi e sopra tutto le immaginazioni e
   i sogni della notte prima. Ma un po' d'ordine pur
-  dovrebb'esserci e per poter cominciare <foreign
-  xml:lang="lat">ab ovo</foreign>, appena
+  dovrebb'esserci e per poter cominciare <foreign xml:lang="lat">ab ovo</foreign>, appena
   abbandonato il dottore che di questi giorni e per
   lungo tempo lascia Trieste, solo per facilitargli
   il compito, comperai e lessi un trattato di
@@ -1330,8 +1328,7 @@ Codifica con software</change>
   compiuti degli sforzi per migliorarsi. Fumava il
   giorno intero e, dopo la morte di mamma, quando
   non dormiva, anche di notte. Beveva anche
-  discretamente; da <foreign xml:lang="en"
-  >gentleman</foreign>, di sera, a cena, tanto da
+  discretamente; da <foreign xml:lang="en">gentleman</foreign>, di sera, a cena, tanto da
   essere sicuro di trovare il sonno pronto non
   appena posata la testa sul guanciale. Ma, secondo
   lui, il fumo e l'alcool erano dei buoni
@@ -3083,8 +3080,7 @@ Codifica con software</change>
   ricciuta, ma accomodata con grazia e severità.</p>
 <p>È difficile di scoprire le origini miti di un
   sentimento divenuto poi tanto violento, ma io sono
-  certo che da me mancò il cosidetto <foreign
-  xml:lang="fre">coup de foudre</foreign> per Ada.
+  certo che da me mancò il cosidetto <foreign xml:lang="fre">coup de foudre</foreign> per Ada.
   Quel colpo di fulmine, però, fu sostituito dalla
   convinzione ch'ebbi immediatamente che quella
   donna fosse quella di cui abbisognavo e che doveva
@@ -4247,8 +4243,7 @@ Codifica con software</change>
   quelle iniziali! Ben maggiore di quella espressa
   dalla data ch'io avevo apposta al mio biglietto e
   che significava già un proposito e forse anche un
-  rimprovero. <foreign xml:lang="en"
-  >Remember</foreign> aveva detto Carlo I prima che
+  rimprovero. <foreign xml:lang="en">Remember</foreign> aveva detto Carlo I prima che
   gli tagliassero il collo e doveva aver pensata la
   data di quel giorno! Anch'io avevo esortata la mia
   avversaria a ricordare e temere!</p>
@@ -4329,8 +4324,7 @@ Codifica con software</change>
   nessuno domandò di me ed è certo che se non mi
   fossi risolto a movermi io, sarei tuttavia
   celibe.</p>
-<p>Una sera andai a giocare al <foreign
-  xml:lang="en">club</foreign>. Era da molti anni
+<p>Una sera andai a giocare al <foreign xml:lang="en">club</foreign>. Era da molti anni
   che non mi vi facevo vedere per rispetto ad una
   promessa fatta a mio padre. Mi pareva che la
   promessa non potesse più valere poiché mio padre
@@ -5494,8 +5488,7 @@ Codifica con software</change>
   la maggiore.</p>
 <p>A un dato momento Guido domandò il violino.
   Faceva a meno per quella sera dell'accompagnamento
-  del piano, eseguendo la <foreign xml:lang="fre"
-  >Chaconne</foreign>. Ada gli porse il violino con
+  del piano, eseguendo la <foreign xml:lang="fre">Chaconne</foreign>. Ada gli porse il violino con
   un sorriso di ringraziamento. Egli non la guardò,
   ma guardò il violino come se avesse voluto
   segregarsi seco e con l'ispirazione. Poi si mise
@@ -5566,8 +5559,7 @@ Codifica con software</change>
   non capisco perché, verso la chiusa, abbiate
   voluto scandere quelle note che il Bach segnò
   legate.</p>
-<p>Io conoscevo la <foreign xml:lang="fre"
-  >Chaconne</foreign> nota per nota. C'era stata
+<p>Io conoscevo la <foreign xml:lang="fre">Chaconne</foreign> nota per nota. C'era stata
   un'epoca in cui avevo creduto che, per progredire,
   avrei dovuto affrontare di simili imprese e per
   lunghi mesi passai il tempo a compitare battuta
@@ -6888,8 +6880,7 @@ Codifica con software</change>
   di casa Medici e scopersi che somigliavano a
   Carnegie e Vanderbilt. Meraviglioso! Eppure erano
   della mia razza! Augusta non divideva la mia
-  meraviglia. Sapeva che cosa fossero i <foreign
-  xml:lang="en">Yankees</foreign>, ma non ancora
+  meraviglia. Sapeva che cosa fossero i <foreign xml:lang="en">Yankees</foreign>, ma non ancora
   bene chi fossi io.</p>
 <p>Qui la sua salute non la vinse ed essa dovette
   rinunziare ai musei. Le raccontai che una volta al
@@ -7149,9 +7140,7 @@ Codifica con software</change>
   piccola lavanderia che implicava addirittura la
   costruzione di una casuccia. Augusta asseriva che
   la lavanderia in casa era una garanzia della
-  salute dei <foreign xml:lang="fre"
-  >bébés</foreign>. Ma intanto i <foreign
-  xml:lang="fre">bébés</foreign> non c'erano ed io
+  salute dei <foreign xml:lang="fre">bébés</foreign>. Ma intanto i <foreign xml:lang="fre">bébés</foreign> non c'erano ed io
   non vedevo alcuna necessità di lasciarmi
   incomodare da loro prima ancora che arrivassero.
   Ella invece portava nella mia vecchia casa un
@@ -7167,8 +7156,7 @@ Codifica con software</change>
   esito splendido. Un giorno, subito dopo il nostro
   viaggio di nozze, mi lasciai innocentemente
   trattenere dall'andar a casa a colazione e, dopo
-  di aver mangiato qualche cosa in un <foreign
-  xml:lang="en">bar</foreign>, restai fuori fino
+  di aver mangiato qualche cosa in un <foreign xml:lang="en">bar</foreign>, restai fuori fino
   alla sera. Rientrato a notte fatta, trovai che
   Augusta non aveva fatto colazione ed era disfatta
   dalla fame. Non mi fece alcun rimprovero, ma non
@@ -7217,8 +7205,7 @@ Codifica con software</change>
   chiarezza, arrivai a raffigurare la mia tasca e
   quando registravo un importo nel «dare» dei
   clienti mi pareva di tener in mano invece della
-  penna il bastoncino del <foreign xml:lang="fre"
-  >croupier</foreign> che raccoglie i denari sparsi
+  penna il bastoncino del <foreign xml:lang="fre">croupier</foreign> che raccoglie i denari sparsi
   sul tavolo da giuoco.</p>
 <p>Il giovine Olivi mi faceva anche vedere la posta
   che arrivava ed io la leggevo con attenzione e —
@@ -8470,8 +8457,7 @@ Codifica con software</change>
   della fantasia. Perché avevo tanto da temere della
   povera Carla di cui ancora non ero l'amante? Era
   evidente che avevo fatto di tutto per spaventarmi
-  della mia situazione. Infine, il «<foreign
-  xml:lang="fre">bébé</foreign>» che avevo evocato
+  della mia situazione. Infine, il «<foreign xml:lang="fre">bébé</foreign>» che avevo evocato
   nel grembo di Augusta finora non aveva dato altro
   segno di vita che la costruzione della
   lavanderia.</p>
@@ -10086,8 +10072,7 @@ Codifica con software</change>
   parte perché non mi si lasciava il tempo di
   chiarire il mio torbido pensiero. Volli iniziare
   un discorso io stesso e dissi a mio suocero:</p>
-<p>— Hai sentito che l'<foreign xml:lang="fre"
-  >Extérieur</foreign> è caduto di due punti?</p>
+<p>— Hai sentito che l'<foreign xml:lang="fre">Extérieur</foreign> è caduto di due punti?</p>
 <p>Avevo detto una cosa che non mi concerneva
   affatto e che avevo sentita dire in Borsa; volevo
   solo parlare di affari, roba seria di cui un
@@ -12209,8 +12194,7 @@ Codifica con software</change>
   solo fra di noi che sia riuscito in quel genere di
   commercio. Eppoi si dice che la scienza è quella
   che vince!</p>
-<p>Intanto da Buenos Aires arrivarono i <foreign
-  xml:lang="spa">pesos</foreign>. Fu un affare
+<p>Intanto da Buenos Aires arrivarono i <foreign xml:lang="spa">pesos</foreign>. Fu un affare
   serio! A me era parsa dapprima una cosa facile, ma
   invece il mercato di Trieste non era preparato a
   quella moneta esotica. Ebbimo di nuovo bisogno del
@@ -12345,8 +12329,7 @@ Codifica con software</change>
 <p>Denari? A quelli non ci avevamo ancora neppur
   pensato. Noi sapevamo che prima bisognava fermarsi
   a guardare, studiare le merci, il paese e anche il
-  nostro <foreign xml:lang="en"
-  >Hinterland</foreign>. Non s'improvvisava mica
+  nostro <foreign xml:lang="en">Hinterland</foreign>. Non s'improvvisava mica
   così una casa di commercio! E anche Augusta
   s'acquietava alle mie spiegazioni.</p>
 <p>Poi nel nostro ufficio fu ammesso un ospite molto
@@ -18885,8 +18868,7 @@ Codifica con software</change>
   aveva urlato, ma egli del tedesco non conosceva
   che quella sola parola che ripeté sempre più
   minacciosamente.</p>
-<p>Bisognava andare <foreign xml:lang="ger"
-  >zurück</foreign> ed io guardandomi sempre dietro
+<p>Bisognava andare <foreign xml:lang="ger">zurück</foreign> ed io guardandomi sempre dietro
   nel timore che l'altro, per farsi intendere
   meglio, sparasse, mi ritirai con una certa premura
   che non m'abbandonò neppure quando il soldato non
@@ -19032,8 +19014,7 @@ Codifica con software</change>
   riteneva che le disposizioni che m'impedivano di
   rincasare sarebbero state levate il giorno
   appresso. Ma intanto mi consigliava di andare a
-  Trieste al <foreign xml:lang="ger"
-  >Platzkommando</foreign> dal quale forse avrei
+  Trieste al <foreign xml:lang="ger">Platzkommando</foreign> dal quale forse avrei
   potuto ottenere un permesso speciale.</p>
 <p>— Fino a Trieste? — domandai io spaventato. — A
   Trieste, senza giubba, senza cappello e senza

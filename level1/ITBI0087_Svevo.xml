@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI0087" xml:lang="it">
    <teiHeader>
       <fileDesc>
@@ -11,12 +15,9 @@
             </respStmt>
          </titleStmt>
          <extent><measure unit="words">66501</measure></extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC : <date/></p>
-         </publicationStmt>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
 
-         <sourceDesc>
-            <bibl type="printSource">
+         <sourceDesc><bibl type="printSource">
                <title>Opera omnia</title>
                <title>Romanzi</title>
                <author>Svevo, Italo</author>
@@ -28,9 +29,7 @@
                <pubPlace>Milano</pubPlace>
                <date>1969</date>
                <note>Contiene: Una vita ; Senilita ; La coscienza di Zeno</note>
-            </bibl>
-            <bibl type="firstEdition"><date>1898</date></bibl>
-         </sourceDesc>
+            </bibl><bibl type="firstEdition"><date>1898</date></bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione Decimale Dewey Classificazione generi BibIt--></p>
@@ -48,7 +47,7 @@
             <e:timeSlot key="T1"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
          <change when="2018-11-24">LB: convert to eltec </change>
            <change when="2003-06-15">Elena Pierazzo BIBIT: Validazione</change>
          <change when="2003-05-29">Marta Zanazzi BIBIT: Codifica XML - Codifica con
@@ -87,8 +86,7 @@
                dallo stesso grandissimo animo.</p>
             <p>La mia fortuna non s'arrestò qui: uomini del valore di Beniamino Crémieux e Valery
                Larbaud mi regalarono il loro tempo e il loro affetto. Cosí poté avvenire che quasi
-               metà del numero del 1<hi>o</hi> Febbraio dell'anno scorso della rivista <title
-                  xml:lang="fre">Le Navire d'Argent</title> poté essere dedicata a me. Il Crémieux
+               metà del numero del 1<hi>o</hi> Febbraio dell'anno scorso della rivista <title xml:lang="fre">Le Navire d'Argent</title> poté essere dedicata a me. Il Crémieux
                vi pubblicò uno studio sui miei tre romanzi e la traduzione di alcuni capitoli de
                   <title>La Coscienza di Zeno</title> e il Larbaud quella di parte di due capitoli
                di questa vecchia <title>Senilità</title>. La predilezione del Larbaud per questo
@@ -772,8 +770,7 @@
                insudiciando un'idea mistica ch'Emilio serio, serio, aveva espressa piú volte al
                momento di separarsi. Domandava un <foreign xml:lang="lat">Deo gratias</foreign>
                quando chiedeva un piccolo favore, gridava <foreign xml:lang="lat">mea maxima
-                  culpa</foreign> quando egli diventava troppo esigente, <foreign xml:lang="lat"
-                  >libera nos Domine</foreign> quando non voleva sentir parlare di qualche cosa.</p>
+                  culpa</foreign> quando egli diventava troppo esigente, <foreign xml:lang="lat">libera nos Domine</foreign> quando non voleva sentir parlare di qualche cosa.</p>
             <p>Eppure egli aveva una soddisfazione completa dal possesso incompleto di quella donna,
                e tentò di procedere oltre solo per diffidenza, per timore di venir deriso da tutti
                quegli uomini che lo guardavano. Ella si difese energicamente: i suoi fratelli
@@ -1215,10 +1212,8 @@
             <p>Il Balli capitò dall'Acquedotto al braccio di una donna grande come lui. — Com'è
                lunga! — disse Angiolina emettendo subito su quella donna l'unico giudizio che a
                quella distanza se ne poteva fare.</p>
-            <p>Avvicinatosi, il Balli presentò: — Margherita! <foreign xml:lang="fre"
-               >Ange</foreign>! — Tentò nell'oscurità di vedere Angiolina e s'avvicinò con la faccia
-               tanto che allungando le labbra avrebbe potuto baciarla. — Veramente <foreign
-                  xml:lang="fre">Ange</foreign>? — Non ancora soddisfatto, accese un cerino e
+            <p>Avvicinatosi, il Balli presentò: — Margherita! <foreign xml:lang="fre">Ange</foreign>! — Tentò nell'oscurità di vedere Angiolina e s'avvicinò con la faccia
+               tanto che allungando le labbra avrebbe potuto baciarla. — Veramente <foreign xml:lang="fre">Ange</foreign>? — Non ancora soddisfatto, accese un cerino e
                illuminò con esso la rosea faccia che, seria, seria, si prestò all'operazione.
                Illuminata, essa aveva nell'oscurità delle trasparenze adorabili; gli occhi chiari,
                in cui il giallo della fiamma penetrava come nell'acqua piú limpida, brillavano
@@ -2668,8 +2663,7 @@
                studiava e misurava l'amico. Il Balli aveva dimenticato perfettamente lo scopo per
                cui era venuto. Raccontava delle storie ch'Emilio già conosceva; si capiva che
                parlava per la sola Amalia. Erano storie di un genere che già aveva provato sulla
-               disgraziata. Raccontava di quella triste e lieta <foreign xml:lang="fre"
-                  >bohème</foreign> della quale Amalia amava tanto la gioia disordinata e la
+               disgraziata. Raccontava di quella triste e lieta <foreign xml:lang="fre">bohème</foreign> della quale Amalia amava tanto la gioia disordinata e la
                spensieratezza.</p>
             <p>Quando Stefano ed Emilio uscirono insieme, nell'animo di quest'ultimo era cresciuto
                enorme l'amaro rancore per l'amico, che in seno gli dormiva da tanto tempo; una frase
@@ -3458,8 +3452,7 @@
                quelli. Rassegnatosi al digiuno ch'ella gli imponeva, si accontentò di quei baci di
                cui era vissuto per tanto tempo. Ma presto i baci soli non bastarono piú, ed egli si
                ritrovò a mormorarle nelle orecchie tutte le dolci parole apprese nel lungo amore: —
-                  <foreign xml:lang="fre">Ange</foreign>! <foreign xml:lang="fre"
-               >Ange</foreign>!</p>
+                  <foreign xml:lang="fre">Ange</foreign>! <foreign xml:lang="fre">Ange</foreign>!</p>
             <p>Il Balli gli aveva fornito l'indirizzo di una casa ove davano a fitto delle stanze.
                Egli gliela indicò. A lungo, per non sbagliare, ella si fece descrivere quella casa e
                la posizione della stanza, ciò che imbarazzò non poco Emilio il quale non l'aveva

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI1508" xml:lang="it">
    <teiHeader>
       <fileDesc>
@@ -11,12 +15,9 @@
             </respStmt>
          </titleStmt>
          <extent><measure unit="words">84116</measure></extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC : <date/></p>
-         </publicationStmt>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
 
-         <sourceDesc>
-            <bibl>
+         <sourceDesc><bibl type="unspecified">
                <title>Cuore</title>
                <author>De Amicis, Edmondo</author>
                <respStmt>
@@ -26,9 +27,7 @@
                <publisher>Einaudi</publisher>
                <pubPlace>Torino</pubPlace>
                <date>1974</date>
-            </bibl>
-            <bibl type="copyText"><date>1886</date></bibl>
-         </sourceDesc>
+            </bibl><bibl type="printSource"><date>1886</date></bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione generi BibIt--></p>
@@ -46,7 +45,7 @@
             <e:timeSlot key="T3"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
          <change when="2018-11-24">LB: convert to eltec </change>
          <change when="1999-01-01">LIZ: Digitalizzazione</change>
          <change when="1999-01-01">LIZ: Correzione linguistica</change>
@@ -57,7 +56,7 @@
    </teiHeader>
    <text>
       <front>
-         <div n="Introduzione">
+         <div type="liminal">
             <p>Questo libro è particolarmente dedicato ai ragazzi delle scuole elementari, i quali
                sono tra i nove e i tredici anni, e si potrebbe intitolare: <title>Storia d'un anno
                   scolastico, scritta da un alunno di 3a, d'una scuola municipale d'Italia.</title>
@@ -152,8 +151,7 @@
                punire nessuno. Mostratemi che siete ragazzi di cuore; la nostra scuola sarà una
                famiglia e voi sarete la mia consolazione e la mia alterezza. Non vi domando una
                promessa a parole; son certo che, nel vostro cuore, m'avete già detto di sì. E vi
-               ringrazio. — In quel punto entrò il bidello a dare il <foreign xml:lang="lat"
-                  >finis</foreign>. Uscimmo tutti dai banchi zitti zitti. Il ragazzo che s'era
+               ringrazio. — In quel punto entrò il bidello a dare il <foreign xml:lang="lat">finis</foreign>. Uscimmo tutti dai banchi zitti zitti. Il ragazzo che s'era
                rizzato sul banco s'accostò al maestro, e gli disse con voce tremante: — Signor
                maestro, mi perdoni. — Il maestro lo baciò in fronte e gli disse: — Và, figliuol
                mio.</p>
@@ -5290,8 +5288,7 @@
                   nome di <emph>Andrea Doria</emph>, fu sbarcato al molo, salutò il suo vecchio
                   amico lombardo, e s'avviò a lunghi passi verso la città.</p>
                <p>Arrivato all'imboccatura della prima via fermò un uomo che passava e lo pregò di
-                  indicargli da che parte dovesse prendere per andar in via de <foreign
-                     xml:lang="spa">los Artes</foreign>. Aveva fermato per l'appunto un operaio
+                  indicargli da che parte dovesse prendere per andar in via de <foreign xml:lang="spa">los Artes</foreign>. Aveva fermato per l'appunto un operaio
                   italiano. Questi lo guardò con curiosità e gli domandò se sapeva leggere. Il
                   ragazzo accennò di sì. — Ebbene, — gli disse l'operaio, indicandogli la via da cui
                   egli usciva; — va' su sempre diritto, leggendo i nomi delle vie a tutte le
@@ -5382,16 +5379,14 @@
                   hai denari, non è vero?</p>
                <p>— Ho ancora... poco, — rispose Marco.</p>
                <p>Il signore pensò altri cinque minuti, poi si mise a un tavolino, scrisse una
-                  lettera, la chiuse, e porgendola al ragazzo, gli disse: — Senti, <foreign
-                     xml:lang="spa">italianito</foreign>. Va' con questa lettera alla Boca. È una
+                  lettera, la chiuse, e porgendola al ragazzo, gli disse: — Senti, <foreign xml:lang="spa">italianito</foreign>. Va' con questa lettera alla Boca. È una
                   piccola città mezza genovese, a due ore di strada di qua. Tutti ti sapranno
                   indicare il cammino. Va' là e cerca di questo signore, a cui è diretta la lettera,
                   e che è conosciuto da tutti. Portagli questa lettera. Egli ti farà partire domani
                   per la città di Rosario, e ti raccomanderà a qualcuno lassù, che penserà a farti
                   proseguire il viaggio fino a Cordova, dove troverai la famiglia Mequinez e tua
                   madre. Intanto, piglia questo. — E gli mise in mano qualche lira. — Va', e fatti
-                  coraggio; qui hai da per tutto dei compaesani, non rimarrai abbandonato. <foreign
-                     xml:lang="spa">Adios</foreign>.</p>
+                  coraggio; qui hai da per tutto dei compaesani, non rimarrai abbandonato. <foreign xml:lang="spa">Adios</foreign>.</p>
                <p>Il ragazzo gli disse: — Grazie, — senza trovar altre parole, uscì con la sua
                   sacca, e congedatosi dalla sua piccola guida, si mise lentamente in cammino verso
                   la Boca, pieno di tristezza e di stupore, a traverso alla grande città
@@ -5643,8 +5638,7 @@
                <p>Il <foreign xml:lang="spa">capataz</foreign> gli accostò al viso una lanterna e lo
                   guardò. Poi disse: — Sta bene.</p>
                <p>Il ragazzo gli baciò la mano.</p>
-               <p>— Stanotte dormirai in un carro, — soggiunse il <foreign xml:lang="spa"
-                     >capataz</foreign>, lasciandolo; — domattina alle quattro ti sveglierò.
+               <p>— Stanotte dormirai in un carro, — soggiunse il <foreign xml:lang="spa">capataz</foreign>, lasciandolo; — domattina alle quattro ti sveglierò.
                      <foreign xml:lang="spa">Buenas noches</foreign>.</p>
                <p>La mattina alle quattro, al lume delle stelle, la lunga fila dei carri si mise in
                   movimento con grande strepito: ciascun carro tirato da sei bovi, seguiti tutti da
@@ -5691,8 +5685,7 @@
                   per vezzo, quando gli davano un ordine, a misurargli uno scapaccione, dicendo: —
                   Insacca questo, vagabondo! — Porta questo a tua madre! — Il cuore gli scoppiava; —
                   ammalò; — stette tre giorni nel carro, con una coperta addosso, battendo la
-                  febbre, e non vedendo nessuno, fuori che il <foreign xml:lang="spa"
-                     >capataz</foreign>, che veniva a dargli da bere e a toccargli il polso. E
+                  febbre, e non vedendo nessuno, fuori che il <foreign xml:lang="spa">capataz</foreign>, che veniva a dargli da bere e a toccargli il polso. E
                   allora si credette perduto, e invocava disperatamente sua madre, chiamandola cento
                   volte per nome: — Oh mia madre! madre mia! Aiutami! Vienmi incontro che muoio! O
                   povera madre mia, che non ti vedrò mai più! Povera madre mia, che mi troverai
@@ -5832,8 +5825,7 @@
                <p>— Impossibile! Impossibile! — rispose il ragazzo. — Ditemi dove si passa, non
                   aspetto più un momento, parto subito, dovessi morire per via!</p>
                <p>Vistolo irremovibile, non s'opposero più. — Dio t'accompagni, — gli dissero. —
-                  Bada alla via per la foresta. — Buon viaggio, <foreign xml:lang="spa"
-                     >italianito</foreign>. — Un uomo l'accompagnò fuori di città, gli indicò il
+                  Bada alla via per la foresta. — Buon viaggio, <foreign xml:lang="spa">italianito</foreign>. — Un uomo l'accompagnò fuori di città, gli indicò il
                   cammino, gli diede qualche consiglio e stette a vederlo partire. In capo a pochi
                   minuti, il ragazzo scomparve, zoppicando, con la sua sacca sulle spalle, dietro
                   agli alberi folti che fiancheggiavan la strada.</p>

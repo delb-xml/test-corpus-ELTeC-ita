@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1445">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1445">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Memorie di Giuda : ELTeC edition</title><author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (?-?)</author></titleStmt>
 			<extent><measure unit="words">142255</measure></extent>
-			<publicationStmt><p>Incorporated into the ELTeC <date>2019-01-29</date><!--
-				 CLiGS 
-				 The files of the collection are  modifications of the corresponding text files from 'Liber
-                Liber'(https://www.liberliber.it/online/), which are provided with a Creative
-                Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
-                published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
-                4.0 
-				 2017 
-				 ITLI1445 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			<publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC 2019-01-29--></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml">CLIGS version</ref></bibl><bibl type="printSource">
 					Memorie di Giuda / F. Petruccelli Della Gattina - Milano : F.lli Treves, 1883 - 2 vv 20 cm.; 1° vol. 284 p., 2° vol 284 pp. <date>1883(1867)</date>, <idno>mancante</idno>, .
-				</bibl></relatedItem></bibl></sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
         <encodingDesc n="eltec-1"><p>Downcoded from CLIGS</p></encodingDesc>
-        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="long"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="medium"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
-        <revisionDesc><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
+        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="long"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="unspecified"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
+        <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
                 corrections.</change><change when="2017-11-27">kb : Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change><change when="2015-11-21">cf : Initial TEI version.</change></revisionDesc>
     </teiHeader>
     <text xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <front>
-    	<div><head>F. PETRUCCELLI DELLA GATTINA</head>
+    	<div type="liminal"><head>F. PETRUCCELLI DELLA GATTINA</head>
     		<head>MEMORIE DI GIUDA</head>
     		<head>PRIMO VOLUME</head>
     		<head>Seconda Edizione Italiana</head>
@@ -33,14 +29,14 @@
     		<head>FRATELLI TREVES, EDITORI</head>
     		<head>1883.</head>
         </div>
-    	<div><head>SCHIARIMENTO.</head>
+    	<div type="liminal"><head>SCHIARIMENTO.</head>
     		<head>Fabrizio, che raccolse i codici apocrifi del Nuovo Testamento, non conosceva questo, che fu ritrovato alla fine dell'ultimo secolo tra i papiri d'Ercolano.</head>
     		<head>Se la forma di questo codice ha qualche volta l'aria moderna, la colpa è mia, che ho voluto mettere alla portata dei miei contemporanei delle cose così vecchie.</head>
     		<head>P. D. G.</head>
     		<head>Parigi, gennaio, 1866.</head></div>
     </front>
 <body>
-<div>
+<div type="group">
 <head>MEMORIE DI GIUDA</head>
 	
 <div type="chapter"><head>I</head>
@@ -1785,7 +1781,7 @@
 <p>- Sei pazzo?</p>
 <p>- Ascoltami, Giuda! Ho lasciato mia moglie ed i miei figli il giorno che ho abbracciato la dottrina esseniana. Ho adottato questa nobile giovanetta di cui tu vedi lo splendore del volto, e non puoi vedere lo splendore dell'anima. Io mi sono dato ad Ida, come la mia mano si è dedicata alla mia vita. Se ella mi chiedesse di demolire il Tempio coi denti, comincierei domani a divorarlo. Ho dunque il dovere di vegliare alla sua pace, al suo onore, alla sua anima. Ami Ida, tu dici? L'ami? Ebbene, non si amano le donne come colei, che quando se ne fa la propria moglie. Tagliami a pezzi se vuoi, ti perdono come ad un maniaco; ma non pensarti di lordare quella donna col tuo amore, neppure in sogno, perchè io ti strappo il cuore come ad una bestia feroce, e ti schiaccio come una bestia immonda.</p>
 <p>E così dicendo, mi gettò alla porta e la chiuse dietro a me.</p></div></div>
-<div>
+<div type="group">
 <!--FINE DEL PRIMO VOLUME.
 F. PETRUCCELLI DELLA GATTINA
 MEMORIE DI GIUDA
@@ -3394,7 +3390,7 @@ FRATELLI TREVES, EDITORI
 </div>
 </body>
     	<back>
-    		<div><head>NOTE</head>
+    		<div type="liminal"><head>NOTE</head>
     			<p>Nota A.</p>
     			<p>Il Talmud, capitolo VI, Sanhedrin, parla della lapidazione di un Gesù di Nazareth convinto di magia, di seduzione e di corruzione dei suoi correligionari. Al capitolo seguente si trova menzionato un altro Gesù figlio di Pandira e di Maria, crestaia, moglie di Studa, ovvero di una certa Stada moglie di Papus, figlio di Iehuda. Questa Maria era di Lydda e visse circa 70 anni dopo Maria, madre del Gesù dei cristiani. Gli è questo il Gesù che, ci dice Raban Maur, i Giudei maledicevano in tutte le loro preghiere come empio, figlio di un empio, il pagano Pandera, e dell'adultera Maria. Infine, un terzo Gesù, dugento anni circa innanzi il Cristo, aveva, dicono gli Ebrei, istituita l'idolatria della croce. (Disputat. R. Jachiel cum Nicol. apud Wagenseil Tela ignea Satanae, p. 16 ad 21. - Raban Maur, lib. contra Judaeos, n. 40, apud Chifflet, Int. scriptor. veter. de fid. cathol., p. 333).</p>
     			<p>Il libro del Toldos Jeschuà dà molti altri ragguagli. Eccone un estratto.</p>

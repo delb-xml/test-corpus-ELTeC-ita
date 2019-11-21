@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1152">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="ITLI1152">
     <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
         <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt><title>Le confessioni d'un Italiano : ELTeC edition</title><author ref="viaf:68995581">Nievo, Ippolito (?-?)</author></titleStmt>
 			<extent><measure unit="words">338962</measure></extent>
-			<publicationStmt><p>Incorporated into the ELTeC <date>2019-01-29</date><!--
-				 CLiGS 
-				 The files of the collection are  modifications of the corresponding text files from 'Liber
-                Liber'(https://www.liberliber.it/online/), which are provided with a Creative
-                Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
-                published under a Creative Commons BY-NC-SA 4.0 license. CC BY-NC-SA
-                4.0 
-				 2017 
-				 ITLI1152 
-			 https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml--></p></publicationStmt>
-			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml">CLIGS version</ref><relatedItem type="copyText"><bibl type="printSource">
+			<publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC 2019-01-29--></publicationStmt>
+			<sourceDesc><bibl type="digitalSource"><ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml">CLIGS version</ref></bibl><bibl type="printSource">
 					"Le confessioni d'un Italiano" di Ippolito Nievo, Einaudi, 1964 <date>1964(1867)</date>, <idno>unav.</idno>, .
-				</bibl></relatedItem></bibl></sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
         <encodingDesc n="eltec-1"><p>Downcoded from CLIGS</p></encodingDesc>
-        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="long"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="medium"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
-        <revisionDesc><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
+        <profileDesc><langUsage><language ident="ita">Italian</language></langUsage><textDesc><authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/><size xmlns="http://distantreading.net/eltec/ns" key="long"/><canonicity xmlns="http://distantreading.net/eltec/ns" key="unspecified"/><timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/></textDesc></profileDesc>
+        <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change><change when="2019-01-29">LB convert to ELTeC-1</change><change when="2017-12-02">kb : Added some meta-data and some minor
                 corrections.</change><change when="2017-11-27">kb : Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change><change when="2015-11-21">cf : Initial TEI version.</change></revisionDesc>
     </teiHeader>
     <text xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <front>
-    	<div><head>Le confessioni d'un Italiano</head>
+    	<div type="liminal"><head>Le confessioni d'un Italiano</head>
     		<head>di Ippolito Nievo</head>
         </div>
     </front>
@@ -3076,6 +3072,6 @@
 <p>O anime, mie sorelle di sangue di fede e d'amore, trapassate o viventi, sento che non è finita ogni mia parentela con voi!... Sento che i vostri spiriti mi aleggiano carezzevoli d'intorno quasi invitando il mio a ricongiungersi col loro aereo drappello... O primo ed unico amore della mia vita, o mia Pisana, tu pensi ancora, tu palpiti, tu respiri in me e d'intorno a me! Io ti veggo quando tramonta il sole, vestita del tuo purpureo manto d'eroina, scomparir fra le fiamme dell'occidente, e una folgore di luce della tua fronte purificata lascia un lungo solco per l'aria quasi a disegnarmi il cammino. Ti intravvedo azzurrina e compassionevole al raggio morente della luna; ti parlo come a donna viva e spirante nelle ore meridiane del giorno. Oh tu sei ancora con me, tu sarai sempre con me; perché la tua morte ebbe affatto la sembianza d'un sublime ridestarsi a vita piú alta e serena. Sperammo ed amammo insieme; insieme dovremo trovarci là dove si raccolgono gli amori dell'umanità passata e le speranze della futura. Senza di te che sarei io mai?... Per te per te sola, o divina, il cuore dimentica ogni suo affanno, e una dolce malinconia suscitata dalla speranza lo occupa soavemente.</p>
 <p>FINE.</p>
 </div>
-</body><back><div>
+</body><back><div type="liminal">
 </div></back></text>
 </TEI>

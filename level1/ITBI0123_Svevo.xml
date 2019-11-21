@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI0123" xml:lang="it">
    <teiHeader>
       <fileDesc>
@@ -11,12 +15,9 @@
             </respStmt>
          </titleStmt>
          <extent><measure unit="words">114202</measure></extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC : <date/></p>
-         </publicationStmt>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
 
-         <sourceDesc>
-            <bibl type="printEdition">
+         <sourceDesc><bibl type="printSource">
                <title>Opera omnia</title>
                <title>Romanzi</title>
                <author>Svevo, Italo</author>
@@ -28,9 +29,7 @@
                <pubPlace>Milano</pubPlace>
                <date>1969</date>
                <note>Contiene: Una vita ; Senilita ; La coscienza di Zeno</note>
-            </bibl>
-            <bibl type="firstEdition"><date>1892</date></bibl>
-         </sourceDesc>
+            </bibl><bibl type="firstEdition"><date>1892</date></bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione Decimale Dewey Classificazione generi BibIt--></p>
@@ -49,7 +48,7 @@
             <e:timeSlot key="T3"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
          <change when="2018-11-24">LB: convert to eltec </change>
          <change when="1999-01-01">LIZ: Digitalizzazione</change>
          <change when="1999-01-01">LIZ: Correzione linguistica</change>
@@ -871,8 +870,7 @@
                qui meno male.</p>
             <p>Alfonso rise forte dello scherzo perché non trovava di mettere una parola nel
                discorso e credette doveroso di dar prova che vi partecipava.</p>
-            <p>— A teatro si sta bene, d´inverno, a Parigi; una bella <foreign xml:lang="fre"
-                  >première</foreign> vale il viaggio.</p>
+            <p>— A teatro si sta bene, d´inverno, a Parigi; una bella <foreign xml:lang="fre">première</foreign> vale il viaggio.</p>
             <p>Non traspariva più l´intenzione di sminuire il trionfo di Annetta e parlava più
                serio, rivolto ad Alfonso, forse per ringraziarlo della risata.</p>
             <p>— Assisteremo alla <foreign xml:lang="fre">première</foreign>
@@ -893,8 +891,7 @@
                della sua voce, Alfonso alzò il capo credendo che anch´essa volesse fargli qualche
                domanda e subito disilluso cercò di mascherare il motivo dei suo movimento con
                l´aspetto di un´attenzione intensa.</p>
-            <p>— Sai che ho imparato delle canzoni che sono popolari a Parigi per fare da <foreign
-                  xml:lang="fre">Gavroche</foreign> per le strade, con Federico!</p>
+            <p>— Sai che ho imparato delle canzoni che sono popolari a Parigi per fare da <foreign xml:lang="fre">Gavroche</foreign> per le strade, con Federico!</p>
             <p>Federico era il fratello di Annetta. Miceni che lo conosceva lo aveva descritto ad
                Alfonso quale una persona molto altera. Faceva la carriera consolare ed era
                viceconsole in un porto francese.</p>
@@ -924,8 +921,7 @@
             <p>Alfonso sapeva il francese ma non avendoci abituato l´orecchio difficilmente
                comprendeva. Macario, guardando sempre Annetta con lo sguardo fiso e parlando a frasi
                staccate per disturbare meno il canto, gli disse:</p>
-            <p>— È canzone cantata da un uomo... un uomo che corre dietro ad un <foreign
-                  xml:lang="lat">omnibus</foreign>. — S´interruppe e con ammirazione mormorò: —
+            <p>— È canzone cantata da un uomo... un uomo che corre dietro ad un <foreign xml:lang="lat">omnibus</foreign>. — S´interruppe e con ammirazione mormorò: —
                Fatta divinamente!</p>
             <p>Annetta ora era realmente stanca: correva sempre, ma saltando meno. Si teneva una
                mano al petto e la voce veniva rotta dall´affanno.</p>
@@ -2398,8 +2394,7 @@
                rifiutare l´invito di Macario.</p>
             <p>— Io non ve lo costringerò di certo. Peccato però! Se qualcuno l´attende ella ha
                naturalmente ragione di rifiutare, ma se è per il vestito ha torto. Prima di tutto è
-               pulito e poi ora che Annetta è letterata ama anzi i <foreign xml:lang="fre"
-                  >bohémiens</foreign>. Venga dunque, via!</p>
+               pulito e poi ora che Annetta è letterata ama anzi i <foreign xml:lang="fre">bohémiens</foreign>. Venga dunque, via!</p>
             <p>Ma Alfonso resistette! Aveva già compreso da quanto gli aveva detto Macario che
                Annetta lo avrebbe trattato con gentilezza, ma voleva farsi pregare. Non aveva potuto
                prendersi altra soddisfazione dell´offesa che gli era stata fatta e intendeva di
@@ -2502,8 +2497,7 @@
                alquanto sentendosi più lontano dall´acqua e sedette afferrandosi con le mani alla
                banchina.</p>
             <p>Macario lo guardò con un leggero sorriso. Si sentiva bene nella sua calma accanto ad
-               Alfonso e per rendere più evidente il distacco tenne il <foreign xml:lang="en"
-                  >cutter</foreign> sotto la piena azione del vento. Alfonso vide il sorriso e volle
+               Alfonso e per rendere più evidente il distacco tenne il <foreign xml:lang="en">cutter</foreign> sotto la piena azione del vento. Alfonso vide il sorriso e volle
                prendere l´aspetto di persona calma. Segnalò a Macario all´orizzonte delle punte
                bianche di montagne di cui non si vedevano le basi.</p>
             <p>Passando accanto al faro poté misurare la rapidità con la quale tagliavano l´acqua;

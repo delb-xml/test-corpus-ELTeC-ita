@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI0184" xml:lang="it">
    <teiHeader>
       <fileDesc>
@@ -11,12 +15,9 @@
             </respStmt>
          </titleStmt>
          <extent><measure unit="words">90004</measure></extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC : <date/></p>
-         </publicationStmt>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
 
-         <sourceDesc>
-            <bibl>
+         <sourceDesc><bibl type="unspecified">
                <title>Piccolo mondo moderno</title>
                <author>Fogazzaro, Antonio</author>
                <respStmt>
@@ -26,9 +27,7 @@
                <publisher>Garzanti</publisher>
                <pubPlace>Milano</pubPlace>
                <date>1990</date>
-            </bibl>
-            <bibl type="copyText"><date>1901</date></bibl>
-         </sourceDesc>
+            </bibl><bibl type="printSource"><date>1901</date></bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione generi BibIt--></p>
@@ -40,11 +39,11 @@
          <textDesc>
             <e:authorGender key="M"/>
             <e:size key="medium"/>
-            <e:canonicity key="medium"/>
+            <e:canonicity key="unspecified"/>
             <e:timeSlot key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
          <change when="2018-11-24">LB: convert to eltec </change>
             <change when="2003-04-07">Elena Pierazzo BIBIT: Validazione</change>
          <change when="2003-03-25">Maria Catacchio BIBIT: Codifica XML - Codifica manuale</change>

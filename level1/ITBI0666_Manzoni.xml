@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ITBI0666" xml:lang="it">
    <teiHeader>
       <fileDesc>
@@ -11,12 +15,9 @@
             </respStmt>
          </titleStmt>
          <extent><measure unit="words">215495</measure></extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC : <date>2019-01-30</date></p>
-         </publicationStmt>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : 2019-01-30--></publicationStmt>
 
-         <sourceDesc>
-            <bibl type="printSource">
+         <sourceDesc><bibl type="printSource">
                <title>Tutte le opere</title>
                 <author>Manzoni, Alessandro</author>
                <respStmt>
@@ -30,9 +31,7 @@
                <publisher>Mondadori</publisher>
                <pubPlace>Milano</pubPlace>
                <date>1954-</date>
-            </bibl>
-            <bibl type="firstEdition"><date>1842</date></bibl>
-         </sourceDesc>
+            </bibl><bibl type="firstEdition"><date>1842</date></bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p><!--Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore dell'opera sono stati soppressi nella versione digitale Livello medio: controllo a video con collazione con edizione di riferimento I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla versione digitale I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte Classificazione Decimale Dewey Classificazione generi BibIt--></p>
@@ -52,7 +51,7 @@
             <e:timeSlot key="T1"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change when="2019-11-14">Checked by releaseChecker script</change>
          <change when="2018-11-24">LB: convert to eltec </change>
          <change when="1999-01-01">LIZ: Digitalizzazione</change>
          <change when="1999-01-01">LIZ: Correzione linguistica</change>
@@ -62,7 +61,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="introduzione">
+         <div type="unrecognized">
             <head>Introduzione</head>
             <p>«L'Historia si può veramente deffinire una guerra illustre contro il Tempo, perchè
                togliendoli di mano gl'anni suoi prigionieri, anzi già fatti cadaueri, li richiama in
@@ -1225,8 +1224,7 @@
                   del Senato, secondo la qualità dei casi, persone e circostanze. E questo
                   ir-re-mis-si-bil-mente e con ogni rigore</emph>, eccetera. Ce n'è della roba, eh?
                E vedete qui le sottoscrizioni: <emph>Gonzalo Fernandez de Cordova</emph>; e più in
-               giù: <foreign xml:lang="lat">Platonus</foreign>; e qui ancora: <foreign
-                  xml:lang="lat">Vidit Ferrer</foreign>: non ci manca niente.»</p>
+               giù: <foreign xml:lang="lat">Platonus</foreign>; e qui ancora: <foreign xml:lang="lat">Vidit Ferrer</foreign>: non ci manca niente.»</p>
             <p>Mentre il dottore leggeva, Renzo gli andava dietro lentamente con l'occhio, cercando
                di cavar il costrutto chiaro, e di mirar proprio quelle sacrosante parole, che gli
                parevano dover esser il suo aiuto. Il dottore, vedendo il nuovo cliente più attento
@@ -6033,8 +6031,7 @@
                sentivano e ripetevano le sue parole: «pane, abbondanza: vengo a far giustizia: un
                po' di luogo di grazia». Sopraffatto poi e come soffogato dal fracasso di tante voci,
                dalla vista di tanti visi fitti, di tant'occhi addosso a lui, si tirava indietro un
-               momento, gonfiava le gote, mandava un gran soffio, e diceva tra sè: - <foreign
-                  xml:lang="spa">por mi vida, que de gente!</foreign> -</p>
+               momento, gonfiava le gote, mandava un gran soffio, e diceva tra sè: - <foreign xml:lang="spa">por mi vida, que de gente!</foreign> -</p>
             <p>«Viva Ferrer! Non abbia paura. Lei è un galantuomo. Pane, pane!»</p>
             <p>«Sì; pane, pane,» rispondeva Ferrer: «abbondanza; lo prometto io,» e metteva la mano
                al petto.</p>
@@ -6060,8 +6057,7 @@
                risolvette d'aiutare Ferrer, e di non abbandonarlo, fin che non fosse ottenuto
                l'intento. Detto fatto, si mise con gli altri a far far largo; e non era certo de'
                meno attivi. Il largo si fece; «venite pure avanti», diceva più d'uno al cocchiere,
-               ritirandosi o andando a fargli un po' di strada più innanzi. «<foreign xml:lang="spa"
-                  >Adelante, presto, con juicio</foreign>», gli disse anche il padrone; e la
+               ritirandosi o andando a fargli un po' di strada più innanzi. «<foreign xml:lang="spa">Adelante, presto, con juicio</foreign>», gli disse anche il padrone; e la
                carrozza si mosse. Ferrer, in mezzo ai saluti che scialacquava al pubblico in massa,
                ne faceva certi particolari di ringraziamento, con un sorriso d'intelligenza, a
                quelli che vedeva adoprarsi per lui: e di questi sorrisi ne toccò più d'uno a Renzo,
@@ -6088,9 +6084,7 @@
                «Sì, signori; pane, abbondanza. Lo condurrò io in prigione: sarà gastigato...
                   <foreign xml:lang="spa">si es culpable</foreign>. Sì, sì, comanderò io: il pane a
                buon mercato. <foreign xml:lang="spa">Asì es</foreign>... così è, voglio dire: il re
-               nostro signore non vuole che codesti fedelissimi vassalli patiscan la fame. <foreign
-                  xml:lang="spa">Ox! ox! guardaos</foreign>: non si facciano male, signori. <foreign
-                  xml:lang="spa">Pedro, adelante con juicio</foreign>. Abbondanza, abbondanza. Un
+               nostro signore non vuole che codesti fedelissimi vassalli patiscan la fame. <foreign xml:lang="spa">Ox! ox! guardaos</foreign>: non si facciano male, signori. <foreign xml:lang="spa">Pedro, adelante con juicio</foreign>. Abbondanza, abbondanza. Un
                po' di luogo, per carità. Pane, pane. In prigione, in prigione. Cosa?» domandava poi
                a uno che s'era buttato mezzo dentro lo sportello, a urlargli qualche suo consiglio o
                preghiera o applauso che fosse. Ma costui, senza poter neppure ricevere il “cosa?”,
@@ -6151,8 +6145,7 @@
                vostra eccellenza. Ma come uscir di qui? Per tutto c'è gente che mi vuol morto».</p>
             <p>«<foreign xml:lang="spa">Venga usted con migo</foreign>, e si faccia coraggio: qui
                fuori c'è la mia carrozza; presto, presto.» Lo prese per la mano, e lo condusse verso
-               la porta, facendogli coraggio tuttavia; ma diceva intanto tra sè: - <foreign
-                  xml:lang="spa">acqui està el busilis; Dios nos valga!</foreign> -</p>
+               la porta, facendogli coraggio tuttavia; ma diceva intanto tra sè: - <foreign xml:lang="spa">acqui està el busilis; Dios nos valga!</foreign> -</p>
             <p>La porta s'apre; Ferrer esce il primo, l'altro dietro, rannicchiato, attaccato,
                incollato alla toga salvatrice, come un bambino alla sottana della mamma. Quelli che
                avevan mantenuta la piazza vota, fanno ora, con un alzar di mani, di cappelli, come
@@ -6175,13 +6168,11 @@
                il più sconnesso nel senso che fosse mai; interrompendolo però ogni tanto con qualche
                parolina spagnola, che in fretta in fretta si voltava a bisbigliar nell'orecchio del
                suo acquattato compagno. «Sì, signori; pane e giustizia: in castello, in prigione,
-               sotto la mia guardia. Grazie, grazie, grazie tante. No, no: non iscapperà! <foreign
-                  xml:lang="spa">Por ablandarlos</foreign>. È troppo giusto; s'esaminerà, si vedrà.
+               sotto la mia guardia. Grazie, grazie, grazie tante. No, no: non iscapperà! <foreign xml:lang="spa">Por ablandarlos</foreign>. È troppo giusto; s'esaminerà, si vedrà.
                Anch'io voglio bene a lor signori. Un gastigo severo. <foreign xml:lang="spa">Esto lo
                   digo por su bien</foreign>. Una meta giusta, una meta onesta, e gastigo agli
                affamatori. Si tirin da parte, di grazia. Sì, sì; io sono un galantuomo, amico del
-               popolo. Sarà gastigato: è vero, è un birbante, uno scellerato. <foreign
-                  xml:lang="spa">Perdone, usted</foreign>. La passerà male, la passerà male...
+               popolo. Sarà gastigato: è vero, è un birbante, uno scellerato. <foreign xml:lang="spa">Perdone, usted</foreign>. La passerà male, la passerà male...
                   <foreign xml:lang="spa">si es culpable</foreign>. Sì, sì, li faremo rigar diritto
                i fornai. Viva il re, e i buoni milanesi, suoi fedelissimi vassalli! Sta fresco, sta
                fresco. <foreign xml:lang="spa">Animo; estàmos ya quasi fuera</foreign>.»</p>
@@ -6213,10 +6204,8 @@
                battendo la mano sulla sua zucca monda, «<foreign xml:lang="spa">que dirà de esto su
                   excelencia</foreign>, che ha già tanto la luna a rovescio, per quel maledetto
                Casale, che non vuole arrendersi? <foreign xml:lang="spa">Que dirà el conde
-                  duque</foreign>, che piglia ombra se una foglia fa più rumore del solito? <foreign
-                  xml:lang="spa">Que dirà el rey nuestro señor</foreign>, che pur qualche cosa
-               bisognerà che venga a risapere d'un fracasso così? E sarà poi finito? <foreign
-                  xml:lang="spa">Dios lo sabe</foreign>.»</p>
+                  duque</foreign>, che piglia ombra se una foglia fa più rumore del solito? <foreign xml:lang="spa">Que dirà el rey nuestro señor</foreign>, che pur qualche cosa
+               bisognerà che venga a risapere d'un fracasso così? E sarà poi finito? <foreign xml:lang="spa">Dios lo sabe</foreign>.»</p>
             <p>«Ah! per me, non voglio più impicciarmene,» diceva il vicario: «me ne chiamo fuori;
                rassegno la mia carica nelle mani di vostra eccellenza, e vo a vivere in una grotta,
                sur una montagna, a far l'eremita, lontano, lontano da questa gente bestiale.»</p>
@@ -6965,8 +6954,7 @@
                quello, rodendosi dentro di sè, di dover lasciar cadere in terra quella domanda
                misteriosa di Renzo, che poteva divenire un tema di cento interrogazioni. - Quando
                uno nasce disgraziato! - pensava. - Ecco; mi viene alle mani uno che, si vede, non
-               vorrebbe altro che cantare; e, un po' di respiro che s'avesse, così <foreign
-                  xml:lang="lat">extra formam</foreign>, accademicamente, in via di discorso
+               vorrebbe altro che cantare; e, un po' di respiro che s'avesse, così <foreign xml:lang="lat">extra formam</foreign>, accademicamente, in via di discorso
                amichevole, gli si farebbe confessar, senza corda, quel che uno volesse; un uomo da
                condurlo in prigione già bell'e esaminato, senza che se ne fosse accorto: e un uomo
                di questa sorte mi deve per l'appunto capitare in un momento così angustiato. Eh! non
@@ -7971,22 +7959,16 @@
             <p>Quello stesso giorno, 13 di novembre, arriva un espresso al signor podestà di Lecco,
                e gli presenta un dispaccio del signor capitano di giustizia, contenente un ordine di
                fare ogni possibile e più opportuna inquisizione, per iscoprire se un certo giovine
-               nominato Lorenzo Tramaglino, filatore di seta, scappato dalle forze <foreign
-                  xml:lang="lat">praedicti egregii domini capitanei</foreign>, sia tornato, <foreign
-                  xml:lang="lat">palam vel clam</foreign>, al suo paese, <foreign xml:lang="lat"
-                  >ignotum</foreign> quale per l'appunto, <foreign xml:lang="lat">verum in
+               nominato Lorenzo Tramaglino, filatore di seta, scappato dalle forze <foreign xml:lang="lat">praedicti egregii domini capitanei</foreign>, sia tornato, <foreign xml:lang="lat">palam vel clam</foreign>, al suo paese, <foreign xml:lang="lat">ignotum</foreign> quale per l'appunto, <foreign xml:lang="lat">verum in
                   territorio Leuci: quod si compertum fuerit sic esse</foreign>, cerchi il detto
                signor podestà, <foreign xml:lang="lat">quanta maxima diligentia fieri
-                  poterit</foreign>, d'averlo nelle mani; e, legato a dovere, <foreign
-                  xml:lang="lat">videlizet</foreign> con buone manette, attesa l'esperimentata
+                  poterit</foreign>, d'averlo nelle mani; e, legato a dovere, <foreign xml:lang="lat">videlizet</foreign> con buone manette, attesa l'esperimentata
                insufficienza de' manichini per il nominato soggetto, lo faccia condurre nelle
                carceri, e lo ritenga lì, sotto buona custodia, per farne consegna a chi sarà spedito
-               a prenderlo; e tanto nel caso del sì, come nel caso del no, <foreign xml:lang="lat"
-                  >accedatis ad domum praedicti Laurentii Tramaliini; et, facta debita diligentia,
+               a prenderlo; e tanto nel caso del sì, come nel caso del no, <foreign xml:lang="lat">accedatis ad domum praedicti Laurentii Tramaliini; et, facta debita diligentia,
                   quidquid ad rem repertum fuerit auferatis; et informationes de illius prava
                   qualitate, vita, et complicibus sumatis</foreign>; e di tutto il detto e il fatto,
-               il trovato e il non trovato, il preso e il lasciato, <foreign xml:lang="lat"
-                  >diligenter referatis</foreign>. Il signor podestà, dopo essersi umanamente
+               il trovato e il non trovato, il preso e il lasciato, <foreign xml:lang="lat">diligenter referatis</foreign>. Il signor podestà, dopo essersi umanamente
                cerziorato che il soggetto non era tornato in paese, fa chiamare il console del
                villaggio, e si fa condur da lui alla casa indicata, con gran treno di notaio e di
                birri. La casa è chiusa; chi ha le chiavi non c'è, o non si lascia trovare. Si sfonda
@@ -13768,8 +13750,7 @@
                sia fatta memoria, la condizione in cui, per qualche mese, si trovaron quegli uomini,
                di veder venire avanti un orribile flagello, d'affaticarsi in ogni maniera a
                stornarlo, d'incontrare ostacoli dove cercavano aiuti, volontà, e d'essere insieme
-               bersaglio delle grida, avere il nome di nemici della patria: <quote xml:lang="lat"
-                  >pro patriae hostibus</quote>, dice il Ripamonti.</p>
+               bersaglio delle grida, avere il nome di nemici della patria: <quote xml:lang="lat">pro patriae hostibus</quote>, dice il Ripamonti.</p>
             <p>Di quell'odio ne toccava una parte anche agli altri medici che, convinti come loro,
                della realtà del contagio, suggerivano precauzioni, cercavano di comunicare a tutti
                la loro dolorosa certezza. I più discreti li tacciavano di credulità e d'ostinazione:
@@ -14042,8 +14023,7 @@
                risposta condoglianze, e nuove esortazioni: dispiacergli di non poter trovarsi nella
                città, per impiegare ogni sua cura in sollievo di quella; ma sperare che a tutto
                avrebbe supplito lo zelo di que' signori: questo essere il tempo di spendere senza
-               risparmio, d'ingegnarsi in ogni maniera. In quanto alle richieste espresse, <foreign
-                  xml:lang="spa">proueeré en el mejor modo que el tiempo y necesidades presentes
+               risparmio, d'ingegnarsi in ogni maniera. In quanto alle richieste espresse, <foreign xml:lang="spa">proueeré en el mejor modo que el tiempo y necesidades presentes
                   permitieren</foreign>. E sotto, un girigogolo, che voleva dire Ambrogio Spinola,
                chiaro come le sue promesse. Il gran cancelliere Ferrer gli scrisse che quella
                risposta era stata letta dai decurioni, <foreign xml:lang="spa">con gran
@@ -14231,11 +14211,9 @@
                carri alle fosse, e sotterrarli; portare o guidare al lazzeretto gl'infermi, e
                governarli; bruciare, purgare la roba infetta e sospetta. Il nome, vuole il Ripamonti
                che venga dal greco <foreign xml:lang="grc">monos</foreign>; Gaspare Bugatti (in una
-               descrizion della peste antecedente), dal latino <foreign xml:lang="lat"
-                  >monere</foreign>; ma insieme dubita, con più ragione, che sia parola tedesca, per
+               descrizion della peste antecedente), dal latino <foreign xml:lang="lat">monere</foreign>; ma insieme dubita, con più ragione, che sia parola tedesca, per
                esser quegli uomini arrolati la più parte nella Svizzera e ne' Grigioni. Nè sarebbe
-               infatti assurdo il crederlo una troncatura del vocabolo <foreign xml:lang="ger"
-                  >monathlich</foreign> (mensuale); giacchè, nell'incertezza di quanto potesse
+               infatti assurdo il crederlo una troncatura del vocabolo <foreign xml:lang="ger">monathlich</foreign> (mensuale); giacchè, nell'incertezza di quanto potesse
                durare il bisogno, è probabile che gli accordi non fossero che di mese in mese.
                L'impiego speciale degli apparitori era di precedere i carri, avvertendo, col suono
                d'un campanello, i passeggieri, che si ritirassero. I commissari regolavano gli uni e
@@ -14401,8 +14379,7 @@
                disastrosi del pari n'eran gli effetti. Vedevano, la più parte di loro, l'annunzio e
                la ragione insieme de' guai in una cometa apparsa l'anno 1628, e in una congiunzione
                di Saturno con Giove, «inclinando», scrive il Tadino, «la congiontione sodetta sopra
-               questo anno 1630, tanto chiara, che ciascun la poteua intendere. <quote
-                  xml:lang="lat">Mortales parat morbos, miranda videntur</quote>». Questa
+               questo anno 1630, tanto chiara, che ciascun la poteua intendere. <quote xml:lang="lat">Mortales parat morbos, miranda videntur</quote>». Questa
                predizione, cavata, dicevano, da un libro intitolato <title>Specchio degli almanacchi
                   perfetti</title>, stampato in Torino, nel 1623, correva per le bocche di tutti.
                Un'altra cometa, apparsa nel giugno dell'anno stesso della peste, si prese per un
@@ -14484,8 +14461,7 @@
                e l'auditore della Sanità, con trenta soldati di cavalleria; che pur troppo uno de'
                fratelli era stato avvertito a tempo per poter trafugare gl'indizi del delitto, e
                probabilmente dall'auditor medesimo, suo amico; e che questo trovava delle scuse per
-               non partire; ma che non ostante, il podestà co' soldati era andato <foreign
-                  xml:lang="spa">a reconocer la casa, y a ver si hallará algunos
+               non partire; ma che non ostante, il podestà co' soldati era andato <foreign xml:lang="spa">a reconocer la casa, y a ver si hallará algunos
                vestigios</foreign>, e prendere informazioni, e arrestar tutti quelli che fossero
                incolpati.</p>
             <p>La cosa dovè finire in nulla, giacchè gli scritti del tempo che parlano de' sospetti
@@ -16095,8 +16071,7 @@
                di disagi desse la forza di sostenere i tanti necessari e inseparabili da quel suo
                incarico. Subito dopo lui, venivano i fanciulli più grandini, scalzi una gran parte,
                ben pochi interamente vestiti, chi affatto in camicia. Venivan poi le donne, tenendo
-               quasi tutte per la mano una bambina, e cantando alternativamente il <title
-                  xml:lang="lat">Miserere</title>; e il suono fiacco di quelle voci, il pallore e la
+               quasi tutte per la mano una bambina, e cantando alternativamente il <title xml:lang="lat">Miserere</title>; e il suono fiacco di quelle voci, il pallore e la
                languidezza di que' visi eran cose da occupar tutto di compassione l'animo di
                chiunque si fosse trovato lì come semplice spettatore. Ma Renzo guardava, esaminava,
                di fila in fila, di viso in viso, senza passarne uno; chè la processione andava tanto
@@ -17010,8 +16985,7 @@
             <p>«È arrivato nel suo palazzo, ch'era quello di don Rodrigo; perchè questo signor
                marchese è l'erede per fidecommisso, come dicono; sicchè non c'è più dubbio. Per me,
                ne sarei contento, se potessi sapere che quel pover'uomo fosse morto bene. A buon
-               conto, finora ho detto per lui de' paternostri, adesso gli dirò de' <title
-                  xml:lang="lat">De profundis</title>. E questo signor marchese è un
+               conto, finora ho detto per lui de' paternostri, adesso gli dirò de' <title xml:lang="lat">De profundis</title>. E questo signor marchese è un
                bravissim'uomo.»</p>
             <p>«Sicuro,» disse don Abbondio: «l'ho sentito nominar più d'una volta per un bravo
                signore davvero, per un uomo della stampa antica. Ma che sia proprio vero...?»</p>
