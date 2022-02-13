@@ -1,0 +1,1 @@
+cd ../Orig; for f in li* ; do echo $f; saxon textId=`basename $f .xml` $f ../Scripts/cligstoeltec.xsl > ../level1/$f ; done
