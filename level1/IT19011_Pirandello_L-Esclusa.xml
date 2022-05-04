@@ -80,9 +80,9 @@
    </teiHeader>
    <text xml:id="IT002">
       <body>
-         <div type="part" n="1" xml:id="IT002001">
+         <div type="group" n="1" xml:id="IT002001">
             <head>PARTE PRIMA</head>
-         </div>
+         
          <div type="chapter" n="1.1" xml:id="IT0020010001">
             <head>I.</head>
             <p>Antonio Pentàgora s'era già seduto a tavola tranquillamente per
@@ -3512,8 +3512,8 @@
                                         fazzoletti...</p>
             <p>- Addio... Addio... - mormorava quasi a se stessa, agitando il
                                         suo, l'abbandonata.</p>
-         </div>
-         <div type="part" n="2" xml:id="IT002002">
+         </div></div>
+         <div type="group" n="2" xml:id="IT002002">
             <head>PARTE SECONDA</head>
             <div type="chapter" n="2.1" xml:id="IT0020020001">
                <head>I.</head>
@@ -4192,7 +4192,7 @@
                                                 sicura di sprofondarlo con quelle quattro parole un
                                                 palmo sotterra, dalla vergogna.</p>
             </div>
-            <div type="chapter" n="3">
+            <div type="chapter" n="3" xml:id="IT0020020003">
                <head>III.</head>
                <p>Anche lui forse, Attilio Nusco, nell'intimo suo sentiva
                                                 la povertà delle proprie maniere, e come dovesse
@@ -4221,9 +4221,8 @@
                                                 senza ombrello. Un saluto, e via, a naso ritto.</p>
                <p>Marta ebbe il primo impeto di buttar via il giornale; ma
                                                 poi lo ritenne, lo spiegò e lesse:</p>
-            </div>
-            <div>
-               <head>A LEI</head>
+            <quote>
+               <label>A LEI</label>
                <l>CONTRO IL TUO SEN, CHE APPENA AI DOLCI INTENTI</l>
                <l>D'AMOR S'ERA CON VAGA ANSIA LEVATO,</l>
                <l>RABBIOSO GROPPO DI CRUDELI EVENTI</l>
@@ -4237,9 +4236,8 @@
                <l>OLTRE TE 'N VAI, Né T'ACERBA QUEL FIELE.</l>
                <l>PUR NEI SORRISI TUOI TREMA UN SOSPIRO</l>
                <l>SOVENTE! E SOL PER QUESTO, ENTRO DEL CUORE,</l>
-               <l>TE, PROVATA E NON VINTA, AMO ED AMMIRO.</l>
-               <div/>
-               <div>
+               <l>TE, PROVATA E NON VINTA, AMO ED AMMIRO.</l></quote>
+              
                   <p>Un furioso rovescio d'acqua venne a percuotere i
                                                   vetri della sala. Marta levò gli occhi dal
                                                   giornale e guardò macchinalmente la finestra.</p>
@@ -4461,7 +4459,6 @@
                                                   avevano fatto lei e Maria, durante quella pioggia
                                                   improvvisa, sù in terrazzo, per salvare i
                                                   fiori.</p>
-               </div>
             </div>
             <div type="chapter" n="2.4" xml:id="IT0020020004">
                <head>IV.</head>

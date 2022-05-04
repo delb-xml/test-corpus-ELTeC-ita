@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Uno, nessuno e centomila: edizione ELTeC</title>
+            <title>Uno, nessuno e centomila: edizion ELTeC</title>
             <author>Pirandello, Luigi (1867-1936)</author>
             <respStmt>
                <resp>Editor</resp>
@@ -74,7 +74,7 @@
    </teiHeader>
    <text xml:id="IT001">
       <body>
-         <div type="book" n="I" xml:id="IT001001">
+         <div type="group" n="I" xml:id="IT001001">
             <head>LIBRO PRIMO</head>
             <div type="chapter" n="1.1" xml:id="IT0010010001">
                <head>I. Mia moglie e il mio naso.</head>
@@ -600,7 +600,7 @@
                   che ero per loro.</p>
             </div>
          </div>
-         <div type="book" n="II" xml:id="IT001002">
+         <div type="group" n="II" xml:id="IT001002">
             <head>LIBRO SECONDO</head>
             <div type="chapter" n="2.1" xml:id="IT0010020001">
                <head>I. Ci sono io e ci siete voi.</head>
@@ -1245,7 +1245,7 @@
                <p>Sissignori, come vedrete, scappò via.</p>
             </div>
          </div>
-         <div type="book" n="III" xml:id="IT001003">
+         <div type="group" n="III" xml:id="IT001003">
             <head>LIBRO TERZ0</head>
             <div type="chapter" n="3.1" xml:id="IT0010030001">
                <head>I. Pazzie per forza.</head>
@@ -1760,7 +1760,7 @@
                <p>Andiamo avanti.</p>
             </div>
          </div>
-         <div type="book" n="IV" xml:id="IT001004">
+         <div type="group" n="IV" xml:id="IT001004">
             <head>LIBRO QUARTO</head>
             <div type="chapter" n="4.1" xml:id="IT0010040001">
                <head>I. Com’erano per me Marco di Dio e sua moglie Diamante.</head>
@@ -2481,7 +2481,7 @@
                <p>Libro quinto</p>
             </div>
          </div>
-         <div type="book" n="V" xml:id="IT001005">
+         <div type="group" n="V" xml:id="IT001005">
             <head>LIBRO QUINTO</head>
             <div type="chapter" n="5.1" xml:id="IT0010050001">
                <head>I. Con la coda fra le gambe.</head>
@@ -3075,7 +3075,7 @@
                <p>E uscii, furioso, dal salotto.</p>
             </div>
          </div>
-         <div type="book" n="VI" xml:id="IT001006">
+         <div type="group" n="VI" xml:id="IT001006">
             <head>LIBRO SESTO</head>
             <div type="chapter" n="6.1" xml:id="IT0010060001">
                <head>I. A tu per tu.</head>
@@ -3340,7 +3340,7 @@
                   impazzisse insieme con me, cosí per niente.</p>
             </div>
          </div>
-         <div type="book" n="VII" xml:id="IT001007">
+         <div type="group" n="VII" xml:id="IT001007">
             <head>LIBRO SETTIMO</head>
             <div type="chapter" n="7.1" xml:id="IT0010070001">
                <head>I. Complicazione.</head>
@@ -3975,7 +3975,7 @@
                   detto.</p>
             </div>
          </div>
-         <div type="book" n="VIII" xml:id="IT001008">
+         <div type="group" n="VIII" xml:id="IT001008">
             <head>LIBRO OTTAVO</head>
             <div type="chapter" n="8.1" xml:id="IT0010080001">
                <head>I. Il giudice vuole il suo tempo.</head>
