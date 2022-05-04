@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>La mano tagliata : ELTeC edition</title>
-            <author ref="viaf:27096653">Serao, Matilde (?-?)</author>
+            <title>La mano tagliata : edizion ELTeC</title>
+            <author ref="viaf:27096653">Serao, Matilde (1856-1927)</author>
          </titleStmt>
          <extent>
             <measure unit="words">108691</measure>
@@ -30,7 +30,7 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1050">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> La mano tagliata : romanzo d'amore / Matilde Serao - Firenze :
-               A. Salani, 1912 - 434 p. ; 16 cm. <date>1912(1912)</date>, <idno>unav.</idno>, .
+               A. Salani, 1912 - 434 p. ; 16 cm. <date>1912</date>, .
             </bibl>
          </sourceDesc>
       </fileDesc>

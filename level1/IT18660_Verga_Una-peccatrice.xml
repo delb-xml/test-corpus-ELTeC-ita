@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Una peccatrice : ELTeC edition</title>
-            <author ref="viaf:18647">Verga, Giovanni (?-?)</author>
+            <title>Una peccatrice : edizion ELTeC </title>
+            <author ref="viaf:18647">Verga, Giovanni (1840-1922)</author>
          </titleStmt>
          <extent>
             <measure unit="words">37113</measure>
@@ -30,7 +30,7 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1749">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> "Una peccatrice" di Giovanni Verga. Newton Compton Editori,
-               1995. <date>1995(1866)</date>, <idno>88-7983-927-6</idno>, . </bibl>
+               <date>1995</date>, <idno>88-7983-927-6</idno></bibl><bibl type="firstEdition"> <date>1866</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

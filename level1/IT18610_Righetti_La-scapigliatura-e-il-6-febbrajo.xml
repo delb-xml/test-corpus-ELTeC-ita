@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>La scapigliatura e il 6 febbrajo : ELTeC edition</title>
-            <author ref="viaf:66678990">Righetti, Carlo [Cletto Arrighi] (?-?)</author>
+            <title>La scapigliatura e il 6 febbrajo : edizion ELTeC</title>
+            <author ref="viaf:66678990">Righetti, Carlo [Cletto Arrighi] (1828-1906)</author>
          </titleStmt>
          <extent>
             <measure unit="words">65883</measure>
@@ -30,7 +30,7 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1099">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> "La scapigliatura e il 6 febbrajo", di Cletto Arrighi Mursia,
-               Milano 1988 <date>1988(1861)</date>, <idno>unav.</idno>, . </bibl>
+               Milano <date>1988</date> </bibl><bibl type="firstEdition"><date>1861</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

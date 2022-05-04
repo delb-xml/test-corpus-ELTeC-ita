@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Cent'anni : ELTeC edition</title>
-            <author ref="viaf:2579508">Rovani, Giuseppe (?-?)</author>
+            <title>Cent'anni : edizion ELTeC</title>
+            <author ref="viaf:2579508">Rovani, Giuseppe (1818-1874)</author>
          </titleStmt>
          <extent>
             <measure unit="words">420104</measure>
@@ -30,7 +30,7 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0202.xml">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> Cent'anni di Giuseppe Rovani, Aldo Garzanti editore, 1975
-               collezione "I grandi libri" <date>1975(1859)</date>, <idno>unav.</idno>, . </bibl>
+               collezione "I grandi libri" <date>1975</date></bibl><bibl type="firstEdition"> <date>1859</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
