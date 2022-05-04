@@ -9,7 +9,7 @@
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
             <title>Il Piacere : ELTeC edition</title>
-            <author ref="viaf:49220129">D'Annunzio, Gabriele (?-?)</author>
+            <author ref="viaf:49220129">D'Annunzio, Gabriele (1863-1938)</author>
          </titleStmt>
          <extent>
             <measure unit="words">104718</measure>
@@ -30,8 +30,8 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0770">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> "Il Piacere", di Gabriele D'Annunzio edizione a cura di
-               Giansiro Ferrata Oscar Mondadori, narrativa n. 179 Mondadori SIAE n. 17374, Giugno
-               1989 <date>1989(1889)</date>, <idno>unav.</idno>, . </bibl>
+               Giansiro Ferrata Oscar Mondadori, narrativa n. 179 Mondadori SIAE n. 17374, <date>Giugno 1989 </date></bibl>
+<bibl type="firstEdition"><date>1889</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
@@ -42,7 +42,7 @@
             <language ident="ita">Italian</language>
          </langUsage>
          <textDesc>
-            <e:authorGender key="F"/>
+            <e:authorGender key="M"/>
             <e:size key="long"/>
             <e:reprintCount key="unspecified"/>
             <e:timeSlot key="T3"/>

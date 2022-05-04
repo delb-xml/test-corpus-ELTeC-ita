@@ -9,7 +9,7 @@
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
             <title>Cantoni il volontario : ELTeC edition</title>
-            <author ref="viaf:100192194">Garibaldi, Giuseppe (?-?)</author>
+            <author ref="viaf:100192194">Garibaldi, Giuseppe (1807-1882)</author>
          </titleStmt>
          <extent>
             <measure unit="words">48977</measure>
@@ -29,8 +29,8 @@
             <bibl type="digitalSource">
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0166.xml">CLIGS version</ref>
             </bibl>
-            <bibl type="printSource"> "Cantoni il volontario : romanzo storico", di Giuseppe
-					Garibaldi Milano : Enrico Politti, 1870 <date>1870(1870)</date>,
+            <bibl type="firstEdition"> "Cantoni il volontario : romanzo storico", di Giuseppe
+					Garibaldi Milano : Enrico Politti, 1870 <date>1870</date>,
 						<idno>unav.</idno>, . </bibl>
          </sourceDesc>
       </fileDesc>

@@ -8,7 +8,7 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Profumo : ELTeC edition</title>
+            <title>Profumo : edizion ELTeC</title>
             <author ref="viaf:24615920">Capuana, Luigi (?-?)</author>
          </titleStmt>
          <extent>
@@ -30,8 +30,8 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1489">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> Profumo di Luigi Capuana; a cura di Paola Azzolini;
-               collezione: Oscar Classici, 370; Arnoldo Mondadori Editore; Milano, 1996
-                  <date>1996(1892)</date>, <idno>88-04-40942-8</idno>, . </bibl>
+               collezione: Oscar Classici, 370; Arnoldo Mondadori Editore; Milano,<date>1996</date>, <idno>88-04-40942-8</idno></bibl>
+<bibl type="firstEdition"><date>1892</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

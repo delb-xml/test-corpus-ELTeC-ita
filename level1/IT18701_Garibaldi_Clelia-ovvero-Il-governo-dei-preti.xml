@@ -9,7 +9,7 @@
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
             <title>Clelia ovvero Il governo dei preti : ELTeC edition</title>
-            <author ref="viaf:100192194">Garibaldi, Giuseppe (?-?)</author>
+            <author ref="viaf:100192194">Garibaldi, Giuseppe (1807-1882)</author>
          </titleStmt>
          <extent>
             <measure unit="words">74110</measure>
@@ -31,7 +31,8 @@
             </bibl>
             <bibl type="printSource"> "Clelia Il governo dei preti" Casa editrice MEB, Torino
 					1982 Ristampa anastatica dell'edizione Fratelli Rechiedei Milano, 1870
-						<date>1870(1870)</date>, <idno>mancante</idno>, . </bibl>
+						</bibl>
+<bibl type="firstEdition"><date>1870</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
