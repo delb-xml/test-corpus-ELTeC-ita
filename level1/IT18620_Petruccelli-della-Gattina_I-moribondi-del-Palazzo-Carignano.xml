@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>I moribondi del Palazzo Carignano : ELTeC edition</title>
-            <author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (?-?)</author>
+            <title>I moribondi del Palazzo Carignano : edizion ELTeC</title>
+            <author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (1815-1890)</author>
          </titleStmt>
          <extent>
             <measure unit="words">44091</measure>
@@ -29,10 +29,8 @@
             <bibl type="digitalSource">
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0614.xml">CLIGS version</ref>
             </bibl>
-            <bibl type="printSource"> "I moribondi del Palazzo Carignano", di Ferdinando
-					Petruccelli della Gattina; F. Perelli; Milano, 1862 CODICE ISBN: informazione
-					non disponibile <date>1862(1862)</date>, <idno>unav.</idno>, . </bibl>
-         </sourceDesc>
+            <bibl type="printSource"> "I moribondi del Palazzo Carignano", di Ferdinando Petruccelli della Gattina; F. Perelli; Milano, <date>1862</date></bibl>
+      </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p>Downcoded from CLIGS</p>

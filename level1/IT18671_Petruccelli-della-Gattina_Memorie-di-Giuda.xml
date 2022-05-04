@@ -8,9 +8,9 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Memorie di Giuda : ELTeC edition</title>
+            <title>Memorie di Giuda : edizion ELTeC </title>
             <author ref="viaf:17255247">Petruccelli della Gattina,
-                                             Ferdinando (?-?)</author>
+               Ferdinando (1815-1890)</author>
          </titleStmt>
          <extent>
             <measure unit="words">142255</measure>
@@ -32,10 +32,8 @@
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1445.xml">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> Memorie di Giuda / F. Petruccelli
-                                             Della Gattina - Milano : F.lli Treves, 1883 - 2 vv 20
-                                             cm.; 1° vol. 284 p., 2° vol 284 pp.
-                                                  <date>1883(1867)</date>, <idno>mancante</idno>, .
-                                    </bibl>
+                                             Della Gattina - Milano : F.lli Treves, 1883 - 2 vv 20                                             cm.; 1° vol. 284 p., 2° vol 284 pp.
+                                                  <date>1883</date></bibl><bibl type="firstEdition"><date>1867</date> </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

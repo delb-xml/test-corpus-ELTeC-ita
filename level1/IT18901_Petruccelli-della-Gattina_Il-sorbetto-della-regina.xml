@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Il sorbetto della regina : ELTeC edition</title>
-            <author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (?-?)</author>
+            <title>Il sorbetto della regina : edizion ELTeC</title>
+         	<author ref="viaf:17255247">Petruccelli della Gattina, Ferdinando (1815-1890)</author>
          </titleStmt>
          <extent>
             <measure unit="words">70467</measure>
@@ -31,7 +31,7 @@
             </bibl>
             <bibl type="printSource"> Il sorbetto della regina : romanzo / di F. Petruccelli
 					Della Gattina - Milano : E. Treves, 1890 - 318 p. ; 19 cm.
-						<date>1890(1890)</date>, <idno>mancante</idno>, . </bibl>
+						<date>1890</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

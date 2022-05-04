@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Le confessioni d'un Italiano : ELTeC edition</title>
-            <author ref="viaf:68995581">Nievo, Ippolito (?-?)</author>
+            <title>Le confessioni d'un Italiano : edizion ELTeC</title>
+            <author ref="viaf:68995581">Nievo, Ippolito (1831-1861)</author>
          </titleStmt>
          <extent>
             <measure unit="words">338962</measure>
@@ -29,9 +29,7 @@
             <bibl type="digitalSource">
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1152.xml">CLIGS version</ref>
             </bibl>
-            <bibl type="printSource"> "Le confessioni d'un Italiano" di Ippolito
-                                        Nievo, Einaudi, 1964 <date>1964(1867)</date>,
-                                                <idno>unav.</idno>, . </bibl>
+            <bibl type="printSource"> "Le confessioni d'un Italiano" di Ippolito                                  Nievo, Einaudi<date>1964</date></bibl><bibl type="firstEdition"><date>1867</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">

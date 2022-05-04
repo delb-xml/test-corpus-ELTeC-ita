@@ -61,7 +61,7 @@
          </langUsage>
          <textDesc>
             <e:authorGender key="M"/>
-            <e:size key="medium"/>
+            <e:size key="long"/>
             <e:reprintCount key="high"/>
             <e:timeSlot key="T4"/>
          </textDesc>
@@ -73,7 +73,7 @@
    </teiHeader>
    <text>
       <body xml:lang="it">
-         <div type="part" n="2">
+         <div type="group" n="2">
             <head>PARTE prima</head>
             <div xml:id="IT001011" type="chapter" n="1">
                <head>CAPITOLO PRIMO</head>
@@ -7180,7 +7180,7 @@
 						vegliavano religiosamente.</p>
             </div>
          </div>
-         <div type="part" n="2">
+         <div type="group" n="2">
             <head>PARTE SECONDA</head>
             <div xml:id="IT001020" type="chapter" n="1">
                <head>CAPITOLO PRIMO</head>
