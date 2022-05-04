@@ -4,11 +4,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:e="http://distantreading.net/eltec/ns"
      xml:lang="it"
-     xml:id="IT19300">
+     xml:id="IT19012">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>I Misteri Delle Soffitte : ELTeC edition</title>
+            <title>I Misteri Delle Soffitte : edizion ELTeC</title>
             <author ref="viaf:90127951">Invernizio, Carolina (1851-1916)</author>
             <respStmt>
                <resp>Editor</resp>
@@ -46,7 +46,7 @@
                </bibl>
             </bibl>
             <bibl type="firstEdition">
-               <date>1930</date>
+               Torino, Gazzetta del Popolo, <date>1901</date>
             </bibl>
          </sourceDesc>
       </fileDesc>

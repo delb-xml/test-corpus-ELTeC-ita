@@ -8,8 +8,8 @@
    <teiHeader xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
       <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
          <titleStmt>
-            <title>Dio ne scampi dagli Orsenigo : ELTeC edition</title>
-            <author ref="viaf:17236690">Imbriani, Vittorio (?-?)</author>
+            <title>Dio ne scampi dagli Orsenigo : edizion ELTeC</title>
+            <author ref="viaf:17236690">Imbriani, Vittorio (1840-1886)</author>
          </titleStmt>
          <extent>
             <measure unit="words">41194</measure>
@@ -29,9 +29,7 @@
             <bibl type="digitalSource">
                <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0368">CLIGS version</ref>
             </bibl>
-            <bibl type="printSource"> "Dio ne scampi dagli Orsenigo" di Vittorio Imbriani;
-               introduzione di Francesco Spera; Biblioteca Universale Rizzoli; Milano, 1975
-                  <date>1975(1876)</date>, <idno>unav.</idno>, . </bibl>
+            <bibl type="printSource"> "Dio ne scampi dagli Orsenigo" di Vittorio Imbriani;  introduzione di Francesco Spera; Biblioteca Universale Rizzoli; Milano<date>1975</date></bibl><bibl type="firstEdition"><date>1876</date></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
