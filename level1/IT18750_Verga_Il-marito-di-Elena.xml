@@ -27,7 +27,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0735">CLIGS version</ref>
+               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0735">CLIGS version</ref>
             </bibl>
             <bibl type="firstEdition"><date>1875</date></bibl>
          </sourceDesc>

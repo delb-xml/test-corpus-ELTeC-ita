@@ -27,7 +27,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1693">CLIGS version</ref>
+               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1693">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> Romanzi giovanili / Giovanni Verga; postfazione di Giuseppe
                Leonelli. &#x96; Milano : Frassinelli, <date>1996</date>. &#x96; (I classici classici), <idno>88-7684-378-7</idno></bibl><bibl type="firstEdition"><date>1875</date></bibl>

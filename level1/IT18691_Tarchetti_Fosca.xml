@@ -27,7 +27,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI0477">CLIGS version</ref>
+               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0477">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> Fosca Edizione Centopagine I Einaudi,       
                <date>1971</date></bibl><bibl type="firstEdition"><date>1869</date></bibl>

@@ -27,7 +27,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/ITLI1749">CLIGS version</ref>
+               <ref target="https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li1749">CLIGS version</ref>
             </bibl>
             <bibl type="printSource"> "Una peccatrice" di Giovanni Verga. Newton Compton Editori,
                <date>1995</date>, <idno>88-7983-927-6</idno></bibl><bibl type="firstEdition"> <date>1866</date></bibl>
