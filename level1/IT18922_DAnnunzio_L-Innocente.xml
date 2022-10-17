@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:e="http://distantreading.net/eltec/ns"
      xml:lang="it"
-     xml:id="IT18921">
+     xml:id="IT18922">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -72,6 +72,7 @@
          </textDesc>
       </profileDesc>
       <revisionDesc>
+       <change when="2022-10-17">Change xml:id from IT18921 to IT18922: LB</change>
          <change when="2022-02-04">Revision in ELTeC format: Guadagno, Daniele</change>
          <change when="2019-07-10">Revision in ELTeC format: Giagnolini, Lucia</change>
       </revisionDesc>
