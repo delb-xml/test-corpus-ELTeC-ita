@@ -1,0 +1,71 @@
+corpus-id	filename	xmlid	author-name	title	author-birth	author-death	author-gender	author-ids	reference-year	first-edition	digital-edition	print-edition	provenance	title-ids	language	numwords	subgenre	narrative-perspective	size-category	reprint-count	time-slot
+ELTeC-ita	IT18420_Manzoni_Promessi-Sposi	IT18420	Manzoni, Alessandro	Promessi Sposi	1785	1873	M	NA	1842	1842	NA	1954-	NA	NA	ita	215495	NA	NA	long	high	T1
+ELTeC-ita	IT18520_Tommaseo_Fede-e-bellezza	IT18520	Tommaseo, Niccolò	Fede e bellezza	1802	1874	M	NA	1852	1852	NA	NA	NA	NA	ita	46720	NA	NA	short	high	T1
+ELTeC-ita	IT18530_Ruffini_Lorenzo-Benoni-ovvero-scene-della-vita-di-un-italiano	IT18530	Ruffini, Giovanni	Lorenzo Benoni, ovvero scene della vita di un italiano	1807	1881	M	viaf:49384032	1853	1853	NA	2005	NA	NA	ita	126277	NA	NA	long	unspecified	T1
+ELTeC-ita	IT18590_Rovani_Cent-anni	IT18590	Rovani, Giuseppe	Cent'anni	1818	1874	M	viaf:2579508	1859	1859	NA	1975	NA	NA	ita	420104	NA	NA	long	unspecified	T1
+ELTeC-ita	IT18600_Guerrazzi_Pasquale-Paoli-ossia-La-rotta-di-Ponte-Nuovo	IT18600	Guerrazzi, Francesco Domenico	Pasquale Paoli, ossia La rotta di Ponte Nuovo	1804	1873	M	viaf:66538608	1860	1860	NA	1883	NA	NA	ita	202286	NA	NA	long	unspecified	T2
+ELTeC-ita	IT18610_Righetti_La-scapigliatura-e-il-6-febbrajo	IT18610	Righetti, Carlo [Cletto Arrighi]	La scapigliatura e il 6 febbrajo	1828	1906	M	viaf:66678990	1861	1861	NA	1988	NA	NA	ita	65883	NA	NA	medium	unspecified	T2
+ELTeC-ita	IT18660_Verga_Una-peccatrice	IT18660	Verga, Giovanni	Una peccatrice	1840	1922	M	viaf:18647	1866	1866	NA	1995	NA	NA	ita	37113	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18671_Petruccelli-della-Gattina_Memorie-di-Giuda	IT18671	               Ferdinando	Memorie di Giuda	1815	1890	M	viaf:17255247	1867	1867	NA	1883	NA	NA	ita	142255	NA	NA	long	unspecified	T2
+ELTeC-ita	IT18670_Nievo_Le-confessioni-d-un-Italiano	IT18670	Nievo, Ippolito	Le confessioni d'un Italiano	1831	1861	M	viaf:68995581	1867	1867	NA	1964	NA	NA	ita	338962	NA	NA	long	unspecified	T2
+ELTeC-ita	IT18691_Tarchetti_Fosca	IT18691	Tarchetti, Iginio Ugo	Fosca	1839	1869	M	viaf:34557152	1869	1869	NA	1971	NA	NA	ita	57440	NA	NA	medium	unspecified	T2
+ELTeC-ita	IT18701_Garibaldi_Clelia-ovvero-Il-governo-dei-preti	IT18701	Garibaldi, Giuseppe	Clelia ovvero Il governo dei preti	1807	1882	M	viaf:100192194	1870	1870	NA	NA	NA	NA	ita	74110	NA	NA	medium	unspecified	T2
+ELTeC-ita	IT18700_Garibaldi_Cantoni-il-volontario	IT18700	Garibaldi, Giuseppe	Cantoni il volontario	1807	1882	M	viaf:100192194	1870	1870	NA	NA	NA	NA	ita	48977	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18710_Barbieri_Gli-incendiari-della-Comune	IT18710	Barbieri, Ulisse	Gli incendiari della Comune	1841	1899	M	NA	1871	1871	NA	NA	NA	NA	it	36110	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18711_Barbieri_Lucifero	IT18711	Barbieri, Ulisse	Lucifero  Fantasia romantica	1842	1899	M	viaf:88997390	1871	1871	NA	NA	NA	NA	it	20253	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18751_Verga_Tigre-reale	IT18751	Verga, Giovanni	Tigre reale	1840	1922	M	viaf:18647	1875	1875	NA	1996	NA	NA	ita	31508	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18750_Verga_Il-marito-di-Elena	IT18750	Verga, Giovanni	Il marito di Elena	1840	1922	M	viaf:18647	1875	1875	NA	NA	NA	NA	ita	46863	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18760_Imbriani_Dio-ne-scampi-dagli-Orsenigo	IT18760	Imbriani, Vittorio	Dio ne scampi dagli Orsenigo	1840	1886	M	viaf:17236690	1876	1876	NA	1975	NA	NA	ita	41194	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18780_Dossi_La-desinenza-in-A	IT18780	Dossi, Carlo	La desinenza in A	1849	1910	M	viaf:24616377	1878	1878	NA	1981	NA	NA	it	60903	NA	NA	medium	high	T2
+ELTeC-ita	IT18810_Praga_Memorie-Del-Presbiterio	IT18810	Praga, Emilio	Memorie Del Presbiterio	1839	1875	M	viaf:12348270	1881	1881	NA	NA	NA	NA	it	69537	NA	NA	medium	high	T3
+ELTeC-ita	IT18831_Collodi_Le-avventure-di-Pinocchio	IT18831	Collodi, Carlo	Le avventure di Pinocchio	1826	1890	M	NA	1883	1883	NA	1981	NA	NA	ita	41286	NA	NA	short	high	T3
+ELTeC-ita	IT18830_Boito_Senso	IT18830	Boito, Camillo	Senso	1836	1914	M	NA	1883	1883	NA	NA	NA	NA	ita	11483	NA	NA	short	high	T3
+ELTeC-ita	IT18851_Fogazzaro_Daniele-Cortis	IT18851	Fogazzaro, Antonio	Daniele Cortis	1842	1911	M	NA	1885	1885	NA	1988	NA	NA	ita	93715	NA	NA	medium	high	T3
+ELTeC-ita	IT18860_De-Amicis_Cuore	IT18860	De Amicis, Edmondo	Cuore	1846	1908	M	NA	1886	1886	NA	1974	NA	NA	ita	84116	NA	NA	medium	high	T3
+ELTeC-ita	IT18861_Invernizio_Il-bacio-d-una-morta	IT18861	Invernizio, Carolina 	Il bacio d'una morta	1851	1916	F	NA	1886	1886	NA	1926	NA	NA	it	91037	NA	NA	medium	high	T4
+ELTeC-ita	IT18880_De-Marchi_Il-Cappello-del-Prete	IT18880	De Marchi, Emilio	Il Cappello del Prete	1851	1901	M	viaf:12380049	1888	1888	NA	1918	NA	NA	it	55708	NA	NA	medium	high	T3
+ELTeC-ita	IT18881_Neera_Lydia	IT18881	Neera	Lydia	1846	1918	F	viaf:120697223	1888	1888	NA	1997	NA	NA	it	45536	NA	NA	short	high	T3
+ELTeC-ita	IT18890_DAnnunzio_Il-Piacere	IT18890	D'Annunzio, Gabriele	Il Piacere	1863	1938	M	viaf:49220129	1889	1889	NA	Giugno 1989	NA	NA	ita	104718	NA	NA	long	unspecified	T3
+ELTeC-ita	IT18900_De-Roberto_Processi-verbali	IT18900	De Roberto, Federico	Processi verbali	1861	1927	M	NA	1890	1890	NA	1990	NA	NA	ita	32828	NA	NA	short	unspecified	T3
+ELTeC-ita	IT18910_Boito_Il-maestro-di-setticlavio	IT18910	Boito, Camillo	Il maestro di setticlavio	1836	1914	M	NA	1891	1891	NA	1990	NA	NA	ita	32277	NA	NA	short	unspecified	T3
+ELTeC-ita	IT18922_DAnnunzio_L-Innocente	IT18922	D'Annunzio, Gabriele	L'Innocente	1863	1938	M	NA	1892	1892	NA	1996	NA	NA	it	77416	NA	NA	medium	high	T3
+ELTeC-ita	IT18920_Capuana_Profumo	IT18920	NA	Profumo	NA	NA	M	viaf:24615920	1892	1892	NA	1996	NA	NA	ita	59185	NA	NA	medium	unspecified	T3
+ELTeC-ita	IT18921_Svevo_Una-vita	IT18921	Svevo, Italo	Una vita	1861	1928	M	NA	1892	1892	NA	1969	NA	NA	ita	114202	NA	NA	long	high	T3
+ELTeC-ita	IT18940_De-Marchi_Redivivo	IT18940	De Marchi, Emilio	Redivivo	1851	1901	M	viaf:12380049	1894	1894	NA	1963	NA	NA	it	68221	NA	NA	medium	high	T3
+ELTeC-ita	IT18941_De-Roberto_I-Viceré	IT18941	De Roberto, Federico	I Viceré	1861	1927	M	viaf:2468980	1894	1894	NA	1995	NA	NA	ita	209250	NA	NA	long	unspecified	T3
+ELTeC-ita	IT18961_DAnnunzio_Le-Vergini-delle-Rocce	IT18961	D'Annunzio, Gabriele	Le Vergini delle Rocce	1863	1938	M	NA	1896	1896	NA	NA	NA	NA	gr	56540	NA	NA	medium	high	T3
+ELTeC-ita	IT18970_De-Marchi_Giacomo-l-idealista	IT18970	De Marchi, Emilio	Giacomo l'idealista	1851	1901	M	viaf:12380049	1897	1897	NA	1974	NA	NA	eng	93065	NA	NA	medium	high	T3
+ELTeC-ita	IT18980_Svevo_Senilità	IT18980	Svevo, Italo	Senilità	1861	1928	M	NA	1898	1898	NA	1969	NA	NA	ita	66501	NA	NA	medium	high	T1
+ELTeC-ita	IT19000_DAnnunzio_Il-fuoco	IT19000	D'Annunzio, Gabriele	Il fuoco	1863	1938	M	NA	1900	1900	NA	2009	NA	NA	it	97471	NA	NA	medium	high	T4
+ELTeC-ita	IT19010_Fogazzaro_Piccolo-mondo-moderno	IT19010	Fogazzaro, Antonio	Piccolo mondo moderno	1842	1911	M	NA	1901	1901	NA	NA	NA	NA	ita	90004	NA	NA	medium	unspecified	T4
+ELTeC-ita	IT19012_Invernizio_I-Misteri-Delle-Soffitte	IT19012	Invernizio, Carolina	I Misteri Delle Soffitte	1851	1916	F	viaf:90127951	1901	1901	NA	1930	NA	NA	it	89608	NA	NA	medium	high	T4
+ELTeC-ita	IT19200_Capuana_Il-marchese-di-Roccaverdina	IT19200	Capuana, Luigi	Il marchese di Roccaverdina	1839	1915	M	NA	1901	1901	NA	1920	NA	NA	it	73239	NA	NA	medium	high	T4
+ELTeC-ita	IT19011_Pirandello_L-Esclusa	IT19011	Pirandello, Luigi	L'Esclusa	1867	1936	M	NA	1901	1901	NA	2007	NA	NA	ita	55842	NA	NA	medium	high	T4
+ELTeC-ita	IT19030_Zuccari_Una-Passione	IT19030	Zuccari, Anna Maria	Una Passione	1846	1918	F	NA	1903	1903	NA	1910	NA	NA	ita	55822	NA	NA	medium	high	T4
+ELTeC-ita	IT19040_Pirandello_Il-fu-Mattia-Pascal	IT19040	Pirandello, Luigi	Il fu Mattia Pascal	1867	1936	M	NA	1904	1904	NA	1919	NA	NA	it	75060	NA	NA	medium	high	T4
+ELTeC-ita	IT19121_Slataper_Il-mio-Carso	IT19121	Slataper, Scipio	Il mio Carso	1888	1915	M	NA	1912	1912	NA	NA	NA	NA	ita	27440	NA	NA	short	high	T4
+ELTeC-ita	IT19130_Zuccoli_La-freccia-nel-fianco	IT19130	Zuccoli, Luciano	La freccia nel fianco	1868	1929	M	viaf:7141879	1913	1913	NA	1917	NA	NA	ita	58498	NA	NA	medium	unspecified	T4
+ELTeC-ita	IT19130_Pirandello_I-vecchi-e-i-giovani	IT19130	Pirandello, Luigi	I vecchi e i giovani	1867	1936	M	NA	1913	1913	NA	NA	NA	NA	it	143062	NA	NA	long	high	T4
+ELTeC-ita	IT19190_Aleramo_Una-Donna	IT19190	Aleramo, Sibilla	Una Donna	1876	1960	F	NA	1919	1919	NA	NA	NA	NA	it	60037	NA	NA	medium	high	T4
+ELTeC-ita	IT19191_Tozzi_Con-gli-occhi-chiusi	IT19191	Tozzi, Federigo	Con gli occhi chiusi	1883	1920	M	NA	1919	1919	NA	1987	NA	NA	ita	46288	NA	NA	short	high	T4
+ELTeC-ita	IT19201_Tozzi_Tre-croci	IT19201	Tozzi, Federigo	Tre croci	1883	1920	M	NA	1920	1920	NA	NA	NA	NA	ita	28390	NA	NA	short	high	T4
+ELTeC-ita	IT19220_Aleramo_Trasfigurazione	IT19220	Aleramo, Sibilla	Trasfigurazione	1876	1960	F	NA	1922	1922	NA	NA	NA	NA	it	6366	NA	NA	short	high	T4
+ELTeC-ita	IT19230_Svevo_La-coscienza-di-Zeno	IT19230	Svevo, Italo	La coscienza di Zeno	1861	1928	M	NA	1923	1923	NA	NA	NA	NA	ita	141904	NA	NA	long	high	T4
+ELTeC-ita	IT19261_Pirandello_Uno-nessuno-e-centomila	IT19261	Pirandello, Luigi	Uno, nessuno e centomila	1867	1936	M	NA	1926	1926	NA	2007	NA	NA	ita	44880	NA	NA	short	high	T4
+ELTeC-ita	IT18850_Barbieri_In-basso	IT18850	Barbieri, Ulisse	In basso	1841	1899	M	viaf:88997390	1885	NA	NA	1885	NA	NA	it	50911	NA	NA	medium	low	T1
+ELTeC-ita	IT18620_Petruccelli-della-Gattina_I-moribondi-del-Palazzo-Carignano	IT18620	Petruccelli della Gattina, Ferdinando	I moribondi del Palazzo Carignano	1815	1890	M	viaf:17255247	1862	NA	NA	1862	NA	NA	ita	44091	NA	NA	short	unspecified	T2
+ELTeC-ita	IT18370_Tommaseo_Il-Duca-D-Atene	IT18370	Tommaseo, Niccoló	Il Duca D'Atene	1802	1874	M	https://viaf.org/viaf/24639861	1858	NA	NA	1858	NA	NA	it	59561	NA	NA	medium	high	T1
+ELTeC-ita	IT19150_De-Marchi_Demetrio-Pianelli	IT19150	De Marchi, Emilio	Demetrio Pianelli	1851	1901	M	viaf:12380049	1915	NA	NA	1915	NA	NA	it	97867	NA	NA	medium	high	T3
+ELTeC-ita	IT18901_Petruccelli-della-Gattina_Il-sorbetto-della-regina	IT18901	Petruccelli della Gattina, Ferdinando	Il sorbetto della regina	1815	1890	M	viaf:17255247	1890	NA	NA	1890	NA	NA	ita	70467	NA	NA	medium	unspecified	T3
+ELTeC-ita	IT18960_Bersezio_La-testa-della-vipera	IT18960	Bersezio, Vittorio	La testa della vipera	1828	1900	M	NA	1896	NA	NA	1896	NA	NA	it	38175	NA	NA	short	low	T3
+ELTeC-ita	IT19221_Deledda_Il-Dio-Dei-Viventi	IT19221	Deledda, Grazia Cosima Damiana	Il Dio Dei Viventi	1871	1936	F	https://viaf.org/viaf/24615920	1922	NA	NA	1922	NA	NA	it	41494	NA	NA	short	high	T4
+ELTeC-ita	IT19140_Fogazzaro_Malombra	IT19140	NA	Malombra	NA	NA	M	NA	1914	NA	NA	1914	NA	NA	it	136283	NA	NA	long	high	T4
+ELTeC-ita	IT18500_Carcano_Damiano-storia-di-una-famiglia-povera	IT18500	NA	Damiano, storia di una famiglia povera	NA	NA	M	NA	1850	NA	NA	1850	NA	NA	it	127099	NA	NA	long	low	T1
+ELTeC-ita	IT18690_Bersezio_Povera-Giovanna	IT18690	NA	Povera Giovanna!	NA	NA	M	viaf:20461502	1869	NA	NA	1869	NA	NA	it	72053	NA	NA	medium	low	T2
+ELTeC-ita	IT18891_Invernizio_La-trovatella-di-Milano	IT18891	Invernizio, Carolina	La trovatella di Milano	1851	1916	F	NA	1889	NA	NA	1889	NA	NA	it	21521	NA	NA	short	high	T3
+ELTeC-ita	IT19131_Dossi_La-Colonia-Felice-Utopia	IT19131	NA	La Colonia Felice - Utopia	NA	NA	M	NA	1913	NA	NA	1913	NA	NA	it	16255	NA	NA	short	high	T2
+ELTeC-ita	IT18790_Capuana_Giacinta	IT18790	Capuana, Luigi	Giacinta	1839	1915	M	NA	1879	NA	NA	1879	NA	NA	ita	48093	NA	NA	short	unspecified	T2
+ELTeC-ita	IT19070_Capuana_Un-Vampiro	IT19070	Capuana, Luigi	Un Vampiro	1839	1915	M	NA	1907	NA	NA	1907	NA	NA	it	9457	NA	NA	short	unspecified	T4
+ELTeC-ita	IT19210_Aleramo_Il-Passaggio	IT19210	Aleramo, Sibilla	Il Passaggio	1876	1960	F	NA	1921	NA	NA	1921	NA	NA	ita	21692	NA	NA	short	high	T4
+ELTeC-ita	IT19130_Deledda_Canne-Al-Vento	IT19130	Deledda, Grazia	Canne Al Vento	1871	1936	F	NA	1913	NA	NA	1913	NA	NA	ita	59210	NA	NA	medium	high	T4
+ELTeC-ita	IT19120_Serao_La-mano-tagliata	IT19120	Serao, Matilde	La mano tagliata	1856	1927	F	viaf:27096653	1912	NA	NA	1912	NA	NA	ita	108691	NA	NA	long	unspecified	T4
